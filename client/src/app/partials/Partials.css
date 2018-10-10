@@ -7,13 +7,15 @@ header, footer {
     align-items: center;
 }
 
-header a {
+header nav a {
     text-decoration: none;
     color: white;
     font-size: 17px;
     margin-right: 5px;
 }
 
-header a:hover {
-    margin-bottom: 1px solid white;
+header nav a:hover {
+    padding: 6px 0;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }

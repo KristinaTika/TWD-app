@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchComics } from '../action-creators/actions';
+import { fetchComics } from '../../action-creators/actions';
 import ComicItem from './ComicItem';
 
 class ComicsList extends Component {

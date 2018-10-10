@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchSingleCharacter } from '../action-creators/actions';
+import { fetchSingleCharacter } from '../../action-creators/actions';
 
 
 class SingleCharacter extends Component {

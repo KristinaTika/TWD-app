@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchSeasons } from '../action-creators/actions';
+import { fetchSeasons } from '../../action-creators/actions';
 
 class SeasonsList extends Component {
     constructor(props) {

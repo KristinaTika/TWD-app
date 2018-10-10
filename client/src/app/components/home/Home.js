@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchInfo } from '../action-creators/actions';
+import { fetchInfo } from '../../action-creators/actions';
 import './Home.css';
 import { Link } from 'react-router-dom';
 
@@ -67,7 +67,7 @@ class Home extends Component {
                             </div>
                             <div>
                                 <span className="bold-title">Number of episodes: </span>
-                                <span>{info.num_of_episodes} </span>
+                                <Link to="/episodes"><span>{info.num_of_episodes} </span></Link>
                             </div>
                             <div>
                                 <span className="bold-title">Executive Producers: </span>
