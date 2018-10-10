@@ -1,0 +1,19 @@
+header, footer {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+header a:hover {
+    margin-bottom: 1px solid white;
+}

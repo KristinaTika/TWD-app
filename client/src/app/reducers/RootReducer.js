@@ -1,4 +1,4 @@
-import { FETCH_CHARACTERS, FETCH_SINGLE_CHARACTER, FETCH_COMICS } from '../action-creators/actions';
+import { FETCH_CHARACTERS, FETCH_SINGLE_CHARACTER, FETCH_COMICS, FETCH_BOOKS, FETCH_INFO } from '../action-creators/actions';
 
 const initialState = {
     characters: [],
@@ -13,6 +13,9 @@ const RootReducer = (state = initialState, action) => {
             return { ...state, character: action.character };
         case FETCH_COMICS:
             return { ...state, comics: action.comics };
+        case FETCH_INFO:
+            return { ...state, info: action.info };
+
         default:
             return state;
     }
