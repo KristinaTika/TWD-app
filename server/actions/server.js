@@ -1,8 +1,10 @@
-const express = require("express");
 const seasons = require("./seasons.js");
 const characters = require("./characters");
 const info = require("./generalInfo");
 const comics = require("./comics");
+const books = require("./books");
+
+const express = require("express");
 const app = express();
 
 app.use((req, res, next) => {
@@ -11,13 +13,11 @@ app.use((req, res, next) => {
     next();
   });
 
-app.get("/", (req, res) => {
-    res.send("Welcome to The Walking Dead API! Copyright by Kristina Butkovic");
-});
+app.get("/", (req, res) => res.send("Welcome to The Walking Dead API! Copyright by Kristina Butkovic"));
 
 app.get('/info', (req, res) => res.send(JSON.stringify(info.info)));
 
-app.get("/seasons", (req, res) => res.send(JSON.stringify(seasons.seasons)));
+app.get("/books", (req, res) => res.send(JSON.stringify(books.books)));
 
 app.get("/characters", (req, res) => res.send(JSON.stringify(characters.characters)));
 
@@ -28,9 +28,9 @@ app.get("/characters/:id", (req, res) => {
     res.send(filteredCharacter);
 });
 
-app.get('/comics', (req, res) => {
-    res.send(JSON.stringify(comics.comics));
-})
+app.get('/comics', (req, res) => res.send(JSON.stringify(comics.comics)));
+
+app.get("/seasons", (req, res) => res.send(JSON.stringify(seasons.seasons)));
 
 app.listen(8080, () => {
     console.log("Server is running on port: 8080");

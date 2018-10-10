@@ -836,7 +836,7 @@ const characters = [
                 age: 'Early 30s',
                 occupation: ['Resident Doctor (Pre - Apocalypse)', 'Medic for the Alexandria Safe-Zone', 'member of the Militia'],
                 family: ['Unknown'],
-                first_appearance: 'Mercy;=',
+                first_appearance: 'Mercy',
                 last_appearance: 'present',
                 status: {
                     alive: '',
@@ -845,6 +845,27 @@ const characters = [
                 },
                 ethnicity: 'Arab - American',
                 description: "Siddiq, portrayed by Avi Nash, debuts in the first episode of season eight. He is first seen surrendering to Carl and tells him that he hasn't ate in a few days. When Carl suddenly points a gun at Siddiq, he tries to calm Carl down and then Rick comes and fires a few warning shots which makes Siddiq run away. Later, Carl returns and leaves two cans of food with a note saying: 'Sorry.' Siddiq watches Carl from the bushes as he walks away."
+            },
+            {
+                id: 39,
+                name: "Alden",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/4/48/Season_eight_alden.png/revision/latest/scale-to-width-down/350?cb=20180409223543",
+                actor: 'Callan McAuliffe',
+                gender: 'Male',
+                hair: 'Brown',
+                age: 'Early to mid 20s',
+                occupation: ['Former member of the Saviors', 'Member of the Militia'],
+                first_appearance: 'The Damned',
+                last_appearance: 'present',
+                status: {
+                    alive: {
+                    status:  'Alive',
+                    lifespan: "'The Damned' to present",
+                    },
+                    dead: ''
+                },
+                ethnicity: 'Caucasian - American',
+                description: " He was a member of the Saviors before defecting to the Militia following the attack on the Hilltop. Following the defeat of the Saviors, Alden chooses to remain at the Hilltop to help build up the community.\n\t\tUnlike most of his fellow Saviors who tend to have a rough and often volatile nature, Alden is level-headed and tends to avoid violence and bloodbaths if he can help it, shown when he immediately surrendered to the Militia and talked his fellow men into doing the same instead of starting more bloodshed. In the makeshift prison at Hilltop, he deliberately bumped Jared and told him to not cause any more trouble after already risking their lives twice with escape attempts. Alden appeared to take up a leadership role with the Savior prisoners, attempting to negotiate with Maggie on their behalf. In return, Maggie appeared to treat Alden as the leader of the prisoners and showed him a level of respect that many of the others didn't receive.\n\t\tAs he spends more time as a prisoner of the Militia, Alden becomes more and more disillusioned with the Saviors. After Simon shows no care for the prisoners, Alden cuts all ties with the Saviors and states that the Saviors aren't his people anymore when sent to bury the dead Saviors. Alden's disillusionment goes so far that he chooses to stay at the Hilltop willingly rather than return to the Saviors when given the chance despite knowing that the Saviors' lack of care towards the prisoners means that he no longer has any strategic value to the Militia."
             }
         ]
     },

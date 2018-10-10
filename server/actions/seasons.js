@@ -128,7 +128,6 @@ const seasons = [
                 plot: "Dr. Edwin Jenner of the CDC welcomes the survivors, allowing them to enjoy the amenities of the powered building while explaining what he knows about walkers. When the survivors discover that the building will self-detonate once it runs out of backup power, Dr. Jenner initially prevents them from leaving. Rick convinces Jenner to let them go, and Jenner whispers something to Rick. They escape just before the building explodes, and the group departs the city."
             }
         ],
-
     },
     {
         num: "2 (2011–12)",
@@ -2272,6 +2271,214 @@ const seasons = [
                 us_viewers: "7.92 millions",
                 plot: "Rick's group follows the false plans given to them by Gregory, leading them into a trap. As the Saviors fire, their weapons backfire due to their ammo being sabotaged by Eugene. The surviving Saviors surrender, while Rick chases down Negan; the two brawl and Rick manages to slice Negan's neck, but immediately has Siddiq tend to the wound, knowing that Carl wanted Negan to survive. Meanwhile, an attack at the Hilltop is stopped with help from Aaron and the Oceanside soldiers. The survivors regroup and rebuild their communities, but Rick's decision to spare Negan angers Maggie and she vows to take action against Rick in the future."
             }
+        ]
+    },
+    {
+        num: "9 (2018–19)",
+        photo: "https://vignette.wikia.nocookie.net/walkingdead/images/0/06/The-walking-dead-season-9-key-art-rick-lincoln-michonne-gurira-full-size.jpg/revision/latest/scale-to-width-down/337?cb=20180906023903",
+        description: "Rick, Maggie, and Ezekiel rally their communities into war against Negan and the Saviors. Losses are heavy on both sides: many of the Kingdom soldiers are killed, Alexandria falls to a Savior attack, and Carl is bitten by a walker. Before euthanizing himself, Carl convinces Rick to end the war and restart society anew. Negan attempts to wipe out Rick and his allies, but Eugene disrupts his plan and Negan is wounded and captured by Rick. Against Maggie's wishes, Negan is spared and imprisoned, ending the war.",
+        main_cast: [
+            {
+                character: "Rick Grimes",
+                actor: "Andrew Lincoln",
+                description: "Rick Grimes, the series' protagonist, a former sheriff and the leader of Alexandria, who is leading a new alliance to fight Negan and the Saviors."
+            },
+            {
+                character: "Michonne",
+                actor: "Danai Gurira",
+                description: "Michonne, Rick's katana-wielding girlfriend, who acts as a mother figure to Carl and Judith."
+            },
+            {
+                character: "Daryl Dixon",
+                actor: "Norman Reedus",
+                description: "Daryl Dixon, Rick's right-hand man, the group's primary hunter and a recruiter for Alexandria."
+            },
+            {
+                character: "Carol Peletier",
+                actor: "Melissa McBride",
+                description: "Carol Peletier, a fierce survivor who is spurred into fighting the Saviors as revenge for the deaths of her friends."
+            },
+            {
+                character: "Maggie Rhee",
+                actor: "Lauren Cohan",
+                description: "Maggie Rhee, the pregnant widow of Glenn and a leading figure of the Hilltop."
+            },
+            {
+                character: "Eugene Porter",
+                actor: "Josh McDermitt",
+                description: "Eugene Porter, a timorous former member of the group whose resourcefulness leads Negan to take him under his wing."
+            },
+            {
+                character: "Rosita Espinosa",
+                actor: "Christian Serratos",
+                description: "Rosita Espinosa, an impulsive member of the group, who is motivated to avenge her ex-boyfriend Spencer and Abraham's death."
+            },
+            {
+                character: "Tara Chambler",
+                actor: "Alanna Masterson",
+                description: "Tara Chambler, a caring, witty member of the group and supply runner for Alexandria who serves as a liaison with Oceanside."
+            },
+            {
+                character: "Gabriel Stokes",
+                actor: "Seth Gilliam",
+                description: "Gabriel Stokes, a priest who has become hardened from his experiences with Rick's group."
+            },
+            {
+                character: "Aaron",
+                actor: "Ross Marquand",
+                description: "Aaron, an Alexandrian recruiter who brought Rick's group to Alexandria and is currently in the fight against the Saviors."
+            },
+            {
+                character: "Negan",
+                actor: "Jeffrey Dean Morgan",
+                description: "Negan, the leader of the Saviors who serves as the season's primary antagonist."
+            },
+            {
+                character: "Paul 'Jesus' Rovia",
+                actor: "Tom Payne",
+                description: "Paul 'Jesus' Rovia, a scout for the Hilltop."
+            },
+            {
+                character: "Enid",
+                actor: "Katelyn Nacon",
+                description: "Enid, a former member of Alexandria who moved to Hilltop to be with Maggie, and has formed a relationship with Carl."
+            },
+            {
+                character: "Siddiq",
+                actor: "Avi Nash ",
+                description: "Siddiq, a mysterious vagabond survivor who befriends Carl."
+            },
+            {
+                character: "Alden",
+                actor: "Callan McAuliffe",
+                description: "Alden, alse refered to as Al, was a member of the Saviors before defecting to the Militia following the attack on the Hilltop. Following the defeat of the Saviors, Alden chooses to remain at the Hilltop to help build up the community"
+            },
+        ],
+        supporting_cast: [  
+            {
+                character: "Ezekiel",
+                actor: "Khary Payton",
+                description: "Ezekiel, the charismatic leader of the Kingdom who allies with Rick against the Saviors."
+            }, 
+            {
+                character: "Gregory",
+                actor: "Xander Berkeley",
+                description: "Gregory, the selfish and hypocritical leader of the Hilltop whose influence diminished with Maggie's prominence."
+            },
+            {
+                character: "Jadis / Anne",
+                actor: "Pollyanna McInthosh",
+                description: "Jadis is a former leader of the Scavengers."
+            },
+            {
+                character: "Eric Raleigh",
+                actor: "Jordan Woods-Robinson",
+                description: "Eric Raleigh, Aaron's boyfriend and his former recruiting partner."
+            },
+            {
+                character: "Dr. Harlan Carson",
+                actor: "R. Keith Harris",
+                description: "Dr. Harlan Carson, a doctor at the Hilltop."
+            },
+            {
+                character: "Jerry",
+                actor: "Cooper Andrews",
+                description: "Jerry, Ezekiel's wise-cracking personal bodyguard."
+            },
+            {
+                character: "Henry",
+                actor: "Macsen Lintz",
+                description: "Henry, a resident of the Kingdom and younger brother of Benjamin."
+            },
+            {
+                character: "Cyndie",
+                actor: "Sydney Park ",
+                description: "Natalia's granddaughter."
+            },
+            {
+                character: "Rachel",
+                actor: "Mimi Kirkland ",
+                description: "Rachel, Natalia's granddaughter and Cyndie's younger sister."
+            },
+            {
+                character: "Rachel",
+                actor: "Mimi Kirkland ",
+                description: "Rachel, Natalia's granddaughter and Cyndie's younger sister."
+            },
+        ],
+        episodes: [
+            {
+                ep: 116,
+                season_ep: 1,
+                title: "A New Beginning",
+                director: "Greg Nicotero",
+                air_date: "October 7, 2018",
+                us_viewers: "6.1 millions",
+                plot: "A year and a half has passed since the end of the War. In a rebuilt and thriving Alexandria, Rick, now with shorter and grayer hair, happily watches Michonne paint with Judith. They go outside the walls to see a flock of birds in the field.\n\t\tAt the Sanctuary, the walker-filled yard has been replaced with crops. Rosita helps Eugene with an experiment while Laura reports something to Daryl, who's now in charge. He goes to the yard and notices Arat and Justin trying to use a walker as a scarecrow, like they used to do, under the pretense to scare off the crows, but Daryl puts it down.\n\t\tOn the road, Tara is scouting when Eugene radios her, informing her that Daryl will be meeting the rest of the group so they can go to Washington D.C. to search for farming materials.\n\t\tElsewhere, Jesus and Aaron kill some walkers. Aaron asks Jesus if he can teach him some of his skills, to which he agrees to teach him in a class at the Hilltop.\n\t\tA while later, Daryl rides off to meet Rick, Michonne, Carol, Maggie and the others in downtown Washington D.C.\n\t\tRick and the group break into the Smithsonian to search for a covered wagon and farming equipment. As they walk over a fragile glass floor, they notice a group of walkers under it. Suddenly, a walker drops from a balcony onto it, cracking the pane, before Daryl puts it down.\n\t\tRick tells everyone to be safe and the group separates.\n\t\tIn the basement, Siddiq gets attacked by a walker whose head is full of spiders. He barely manages to kill it and admits to Rick he is more scared of the spiders, which Enid laughs at.\n\t\tIn a hallway, Gabriel drives a machete into a walker's head and leaves it hanging on a human evolution display. He and Anne smile at the irony of this.\n\t\tBy the stairs, Cyndie sees an old canoe and remembers an experience with her brother. Daryl relates to her and the two of them lift the canoe.\n\t\tBack in the basement, Rick's group finds packages of seeds and beans. Rick thanks Anne for the lead, while she tells Gabriel that she knew of this because she once brought her class back when she was teaching.\n\t\tWhile returning to the stairs, Maggie tells Michonne and Carol that Gregory called for an election at the Hilltop and lost, making Maggie the rightful leader. Michonne stops and looks at a display of politics and how to unite different colonies.\n\t\tShortly after, the whole group reunites and gingerly uses ropes to drag an old covered wagon down the stairs and over the glass floor. The glass finally gives way and Ezekiel falls through it, dangling by the rope. Before the walkers can bite him, Daryl shoots at one and Rick and the others finally pull him to safety. Carol joyfully kisses him to celebrate.\n\t\tThe group leaves D.C. and prepare to head back to their own communities.\n\t\tOn the road, Alden talks to Ken and Marco about blacksmithing at the Hilltop. In the back, Ezekiel proposes to Carol. She tells him to put the ring away and reminds him she doesn't want to be asked yet, especially on a horse. Ezekiel smiles and tells her he still loves her.\n\t\tRosita and Daryl catch up with everyone to inform them that the main bridge is out due to a storm. Rick tells Tara, Gabriel, Aaron and Anne to head back to Alexandria and the rest will go to an alternate route and spend the night at the Sanctuary.\n\t\tIn the woods, the wagon gets caught in the mud as walkers appear from the bushes. It finally budges and everyone rushes to gather the supplies until the walkers overwhelm them and they're forced to leave. Ken runs back to free his horses but is bitten in the arm by a walker and then kicked in the ribs by the horse.\n\t\tSiddiq and Enid try to save him but Ken succumbs to blood loss and dies from his injuries. A saddened Maggie sobs by his side before putting him down.\n\t\tAt night, in Hilltop, Maggie breaks the news of Ken's death to his parents, Tammy and Earl. An emotional Tammy scolds Maggie for getting her son killed, reminding her that she voted for her in the election. Earl tries to calm her down but Tammy doesn't listen and criticizes Maggie's decision to supply the Saviors. A shocked Maggie offers to help with the funeral but Tammy declines and denies her from being present.\n\t\tLater, the Hilltop gathers for Ken's funeral. Alden sings as Gregory gives a eulogy. Maggie holds her son, Hershel, and watches from the balcony.\n\t\tAt the Sanctuary, Rick and the group arrive to deliver supplies. Michonne points out graffiti that proclaims, 'We are still Negan', and Daryl demands Justin to clean it up. Rick promises to the Saviors that he’ll continue to support them so they can get back on their feet. Everyone applauds him and treat him like a celebrity.\n\t\tDaryl pulls Rick aside to tell him that he no longer wants to lead the place because he doesn't belong there and since it's factory, it can't produce crops. He suggests he return to Hilltop to check on Maggie and Hershel, but Rick argues he should return to Alexandria. 'Things have changed,' Rick says, but Daryl claims it's because Rick changed them, before going out.\n\t\tOutside, Carol follows Daryl and offers to take over the Sanctuary for him. She tells him about Zeke's proposal and says she wants to take her time. Daryl's surprised and asks if he should stay with her. She declines and rests her head on his shoulder.\n\t\tIn their trailer, Tammy mourns her son while Gregory gets Earl drunk and suggests Maggie doesn’t have to be the leader anymore.\n\t\tIn the Sanctuary, Rick and Michonne settle into bed and Michonne asks if they did the right thing by letting Negan live. However, Rick stands by his choice. She then proposes that they create a charter between the communities: laying out guidelines and punishment. Rick agrees and tells her how lucky he is to have found her. They kiss and make love.\n\t\tBack at the Hilltop, Maggie takes Hershel out for a stroll and runs into Gregory, who tells her someone may have defaced Glenn's grave. Upset, she rushes towards the grave and is attacked by a hooded stranger, who also knocks over Hershel’s stroller. Enid intervenes but gets pushed to the ground hard and is knocked out. Alden and Cyndie grab the assailant and Maggie rips off his hood to reveal a drunken Earl.\n\t\tMaggie rushes over to Gregory's place and accuses him of trying to get her killed. He angrily reminds her that he built this place and tries to stab her with a knife, but she overpowers him and holds it to his neck.\n\t\tThe next day, Carol tells Ezekiel she's staying at Sanctuary and instructs Jerry to take care of him as they head off.\n\t\tDaryl, Michonne and Rick arrive at the Hilltop to find the workers building gallows. Later, Rick asks Maggie to visit Alexandria but she says she can't because Negan's there. He asks for her help in fixing the bridge, which includes providing supplies to the Sanctuary. She says she'll only agree if the Saviors agree to provide the labor and fuel. Rick says he can’t and he's obliged to help, but Maggie disagrees and reminds her that he never ended up following her as he promised, but now he should.\n\t\tIn the night, the residents gather around the gallows as Maggie explains to her people that the punishment fits the crime. She looks on at Gregory, who has a noose around his neck and is sitting on a horse. Gregory pleads for someone to stop this, but no one moves. A couple of kids show up and Michonne yells for Maggie to stop but it's too late as Daryl smacks the horse and it rides off, leaving Gregory to hang to death to everyone's shock.\n\t\tMaggie tells her people that she wants this to be the last time they do something like this. A shocked Rick and Michonne look on as Maggie then orders Daryl to cut off the noose."
+            },
+            {
+                ep: 117,
+                season_ep: 2,
+                title: "The Bridge",
+                director: "Daisy Mayer",
+                air_date: "October 14, 2018",
+                us_viewers: "",
+                plot: ""
+            },
+            {
+                ep: 118,
+                season_ep: 3,
+                title: "Warning Signs",
+                director: "Dan Liu",
+                air_date: "October 21, 2018",
+                us_viewers: "",
+                plot: ""
+            },
+            {
+                ep: 119,
+                season_ep: 4,
+                title: "The Obligated",
+                director: "Rosemary Rodriguez",
+                air_date: "October 28, 2018",
+                us_viewers: "",
+                plot: ""
+            },
+            {
+                ep: 120,
+                season_ep: 5,
+                title: "What Comes After",
+                director: "Greg Nicotero",
+                air_date: "November 4, 2018",
+                us_viewers: "",
+                plot: ""
+            },
+            {
+                ep: 121,
+                season_ep: 6,
+                title: "Who Are You Now",
+                director: "Daisy Mayer",
+                air_date: "November 11, 2018",
+                us_viewers: "",
+                plot: ""
+            },
+            {
+                ep: 122,
+                season_ep: 7,
+                title: "Stradivarius",
+                director: "Michael Cudlitz",
+                air_date: "November 18, 2018",
+                us_viewers: "",
+                plot: ""
+            },
+            {
+                ep: 123,
+                season_ep: 8,
+                title: "Evolution",
+                director: "Michael E. Satrazemis",
+                air_date: "November 25, 2018",
+                us_viewers: "",
+                plot: ""
+            },
         ]
     },
 ];
