@@ -1236,4 +1236,4 @@ const episodes = [
     },
 ];
 
-module.exports = { episodes }
+module.exports = { episodes };

@@ -2,7 +2,6 @@ const comics = {
     info: "The Walking Dead is a monthly black-and-white American comic that started in 2003, and was created and written by Robert Kirkman with artist Tony Moore. The current artists for the series are Charlie Adlard, Stefano Gaudiano, Cliff Rathburn and Dave Stewart. The comic is published by Image Comics and Skybound Entertainment.",
     publisher: ['Image Comics (#1 to Present)', 'Skybound Entertainment(#76 to Present'],
     volumes: [
-
         {
             id: 1,
             volume: 1,
