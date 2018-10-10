@@ -1,7 +1,7 @@
 const characters = [
     {
         main_characters: [
-            {   
+            {
                 id: 1,
                 name: "Rick Grimes",
                 photo: "https://thebrotherhoodofevilgeeks.files.wordpress.com/2015/09/uhvmsgpr.jpeg",
@@ -41,13 +41,13 @@ const characters = [
                         status: "Dead",
                         death_episode: 'Better Angels',
                         cause_of_death: 'Stabbed in the chest by Rick Grimes.(alive)\nShot in the head by Carl Grimes.(zombified)',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/8/84/Episode-12-rick-shane-stab9234698562.jpg/revision/latest/scale-to-width-down/350?cb=20120320013228', 'https://vignette.wikia.nocookie.net/walkingdead/images/a/a6/Shane_death.jpg/revision/latest/scale-to-width-down/350?cb=20151124172442' ]
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/8/84/Episode-12-rick-shane-stab9234698562.jpg/revision/latest/scale-to-width-down/350?cb=20120320013228', 'https://vignette.wikia.nocookie.net/walkingdead/images/a/a6/Shane_death.jpg/revision/latest/scale-to-width-down/350?cb=20151124172442']
                     }
                 },
                 ethnicity: 'Caucasian - American',
                 description: "Shane Walsh is a former sheriff's deputy from a small Georgia town. He was Rick's partner in the sheriff's department and his best friend since high school. Until Rick's arrival, Shane led the group of Atlanta survivors. Shane harbors feelings for Lori, and after the start of the apocalypse, when Lori believes Rick is dead, Shane starts a sexual relationship with her. When Rick finds them, Shane relinquishes the leadership position to Rick, while trying to hide his resentment towards Rick and his relationship with Lori. During season two, Shane gradually becomes more unhinged and shows bouts of irrational violence and bloodlust after allowing another survivor to die in an act of self-preservation. Shane eventually lures Rick away from the group to kill him, but Rick kills him first. Shane's reanimation after being stabbed was the first concrete indication to the survivors that it didn't matter how someone died: they would still come back as a walker.\nWhile Rick claims Lori's baby as his daughter, it is strongly implied that Judith is Shane's biological child. This is further supported when Rick specifically tells Michonne that he knows Judith isn't his, but still vows to protect her and treat her as if she was."
             },
-            {   
+            {
                 id: 3,
                 name: "Lori Grimes",
                 photo: "http://www.femalefirst.co.uk/image-library/square/500/s/sarah-wayne-callies-interview-image.jpg",
@@ -65,7 +65,7 @@ const characters = [
                         status: 'dead',
                         death_episode: 'Killer Within',
                         cause_of_death: 'Died from blood loss during a caesarean section by Maggie Rhee in order to deliver her baby, Judith.(alive)\nShot in the head by Carl Grimes.(before reanimation, off-screen)',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/1/11/Lori_C-section_Death.png/revision/latest/scale-to-width-down/350?cb=20121105072010', 'https://vignette.wikia.nocookie.net/walkingdead/images/2/2c/Lori_after_c-section.png/revision/latest/scale-to-width-down/350?cb=20121105075642' ]
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/1/11/Lori_C-section_Death.png/revision/latest/scale-to-width-down/350?cb=20121105072010', 'https://vignette.wikia.nocookie.net/walkingdead/images/2/2c/Lori_after_c-section.png/revision/latest/scale-to-width-down/350?cb=20121105075642']
                     }
                 },
                 ethnicity: 'Caucasian - American',
@@ -89,7 +89,7 @@ const characters = [
                         status: 'dead',
                         death_episode: 'Honor',
                         cause_of_death: 'Bitten on the rib by a walker.(caused)\nSelf-infliced gunshot to the head to prevent reanimation.(suicide, before reanimation, off-screen)',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/c/c4/Amc2.png/revision/latest/scale-to-width-down/350?cb=20180226114908', 'https://vignette.wikia.nocookie.net/walkingdead/images/5/58/Carl%27sDeath%283%29.png/revision/latest/scale-to-width-down/350?cb=20180106222814', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/9f/Amc1.png/revision/latest/scale-to-width-down/350?cb=20180226062708' ]
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/c/c4/Amc2.png/revision/latest/scale-to-width-down/350?cb=20180226114908', 'https://vignette.wikia.nocookie.net/walkingdead/images/5/58/Carl%27sDeath%283%29.png/revision/latest/scale-to-width-down/350?cb=20180106222814', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/9f/Amc1.png/revision/latest/scale-to-width-down/350?cb=20180226062708']
                     }
                 },
                 ethnicity: 'Caucasian - American',
@@ -135,7 +135,7 @@ const characters = [
                         status: 'dead',
                         death_episode: 'Judge, Jury, Executioner',
                         cause_of_death: 'Disemboweled by a walker on Hershal Greene"s farm.(caused)\nShot in the head by Daryl Dixon.(out of mercy)',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/d/df/Episode-11-dale-walker.jpg/revision/latest/scale-to-width-down/350?cb=20120305153133', 'https://vignette.wikia.nocookie.net/walkingdead/images/8/8d/Episode-11-dale-guts.jpg/revision/latest/scale-to-width-down/350?cb=20120305153115', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/92/Daledeath.jpg/revision/latest/scale-to-width-down/350?cb=20120320015924' ]
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/d/df/Episode-11-dale-walker.jpg/revision/latest/scale-to-width-down/350?cb=20120305153133', 'https://vignette.wikia.nocookie.net/walkingdead/images/8/8d/Episode-11-dale-guts.jpg/revision/latest/scale-to-width-down/350?cb=20120305153115', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/92/Daledeath.jpg/revision/latest/scale-to-width-down/350?cb=20120320015924']
                     }
                 },
                 ethnicity: 'Caucasian - American',
@@ -164,7 +164,7 @@ const characters = [
                 },
                 ethnicity: 'Korean - American',
                 description: "Glenn Rhee is a former pizza delivery boy from Atlanta. He is keenly aware of the extreme danger of his missions on behalf of the group, but because of his loyalty to the group he is willing to take the risks. His knowledge of every shortcut in Atlanta proves extremely useful, and he is an excellent scavenger. Glenn thinks well on his feet and shows great compassion and humanity. He develops a passionate relationship with Maggie while living on the Greene farm and later marries her while they are living in the prison. He becomes more confident and displays more courage and ingenuity, as well as leadership qualities later. After being infected with the illness spreading in the prison, he recovers through Hershel and Bob's care. When The Governor attacks the prison, he is unable to find Maggie and goes on a search for her with Tara Chambler. The two encounter Abraham Ford, Eugene Porter and Rosita Espinosa, who plan to bring Eugene to Washington, D.C. to find a cure for the apocalypse. After reuniting with his wife, they journey on their mission to D.C., although Eugene eventually reveals he was a fraud hoping for protection. After his half-sister-in-law, Beth's death, he moves forward with plans to find a safe haven for the group and continues to comfort Maggie in her loss. Glenn continues to be the voice of reason after Beth's death, and moral support for the group. When they arrive at Alexandria, he is assigned to be one of the runners, and he and fellow runner Nicholas become rivals. After Nicholas causes the death of one of the other runners, their feud eventually culminates in Nicholas trying to shoot Glenn, and the two of them getting in a fight. Glenn is unable to kill Nicholas, and the two form a fragile peace. Glenn is seemingly killed when Nicholas commits suicide and the two fall into a horde of walkers, but he was able to use Nicholas's body as a shield and escape under a nearby dumpster. When he arrives back home, he learns that Maggie is expecting their first child. Glenn is part of the raid on the Savior outpost and is forced to kill his first living human, which he finds very difficult. When Maggie experiences complications in her pregnancy, Glenn is captured and, along with Rosita, Daryl, Michonne, Abraham, Maggie, Rick, Sasha, Carl, Eugene and Aaron, is forced to kneel before Negan as punishment for the raid. Negan's wrath lands on Abraham, and Daryl's reaction to Abraham's death causes Negan to additionally bludgeon Glenn to death. His remains are taken by Maggie and Sasha to the Hilltop, where he and Abraham are buried together."
-            }, 
+            },
             {
                 id: 8,
                 name: "Andrea",
@@ -207,7 +207,7 @@ const characters = [
                         status: 'dead',
                         death_episode: 'This Sorrowful Life',
                         cause_of_death: 'Shot in the heart by The Governor.(alive)\nRepeatedly stabbed in the head by Daryl Dixon.(zombified)',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/c/c2/Vlcsnap-2014-01-25-14h25m07s154.png/revision/latest/scale-to-width-down/350?cb=20140125192616', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/c9/Vlcsnap-2014-01-25-14h33m40s162.png/revision/latest/scale-to-width-down/350?cb=20140125193501' ]
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/c/c2/Vlcsnap-2014-01-25-14h25m07s154.png/revision/latest/scale-to-width-down/350?cb=20140125192616', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/c9/Vlcsnap-2014-01-25-14h33m40s162.png/revision/latest/scale-to-width-down/350?cb=20140125193501']
                     }
                 },
                 ethnicity: 'Caucasion - American',
@@ -262,7 +262,7 @@ const characters = [
                 hair: 'dark brown',
                 age: '22 (season 2), 23 (season 3), 24 (season 4), 25 (season 9)',
                 occupation: ['College Student (Pre - Apocalypse)', 'Farm Hand on the Greene Family Farm (Pre and Post - Apocalypse)', 'former Govern Assistant for the Alexandria Safe-Zone', 'leader of the Hilltop Colony', 'Co-Leader of the Militia'],
-                family: ['Glenn Rhee - former husband (deceased)', 'Hershal Greene - father (deceased)', 'Josephine Greene - mother (deceased)', 'Annette Greene - step-mother (deceased)', 'Beth Greene - half-sister (deceased)','Shawn Greene - step-brother (deceased', 'Arnold Greene - cousin (deceased)', 'Hershal Rhee - son'],
+                family: ['Glenn Rhee - former husband (deceased)', 'Hershal Greene - father (deceased)', 'Josephine Greene - mother (deceased)', 'Annette Greene - step-mother (deceased)', 'Beth Greene - half-sister (deceased)', 'Shawn Greene - step-brother (deceased', 'Arnold Greene - cousin (deceased)', 'Hershal Rhee - son'],
                 first_appearance: 'Blodletting',
                 last_appearance: 'Who Are You Now',
                 status: {
@@ -282,7 +282,7 @@ const characters = [
                 hair: 'white',
                 age: 'Early to Mid 70s',
                 occupation: ['Veterinarian (Pre - Apocalypse', 'Group Medic/Former Prison Council Member (Post - Apocalypse'],
-                family: ['Josephine Greene - former wife (deceased)', 'Annette Greene - former wife (deceased)', 'Maggie Rhee - daughter', 'Beth Greene -daughter(deceased)','Shawn Greene - step-son (deceased', 'Glenn Rhee - son-in-law', 'Arnold Greene - nephew (deceased)'],
+                family: ['Josephine Greene - former wife (deceased)', 'Annette Greene - former wife (deceased)', 'Maggie Rhee - daughter', 'Beth Greene -daughter(deceased)', 'Shawn Greene - step-son (deceased', 'Glenn Rhee - son-in-law', 'Arnold Greene - nephew (deceased)'],
                 first_appearance: 'Blootletting',
                 last_appearance: 'season 9',
                 status: {
@@ -306,7 +306,7 @@ const characters = [
                 hair: 'blonde',
                 age: '16 (season 2), 17 (season 3), 17-18 (season 5)',
                 occupation: ['High school Student (Pre - Apocalypse)', 'Farm Hand on the Greene Family Farm (Pre and Post - Apocalypse)', 'Dawwn Lerner"s ward at Grady Memorial Hospital (Post - Apocalypse)'],
-                family: ['Hershal Greene - father (deceased)', 'Annette Greene - mother (deceased)', 'Maggie Greene - half-sister','Shawn Greene - half-brother (deceased', 'Arnold Greene - cousin (deceased)', 'Glenn Rhee - brother-in-law', 'Jimmy - former boyfriend (deceased)', 'Zach - former boyfriend (deceased)', 'Hershal Rhee - newphew'],
+                family: ['Hershal Greene - father (deceased)', 'Annette Greene - mother (deceased)', 'Maggie Greene - half-sister', 'Shawn Greene - half-brother (deceased', 'Arnold Greene - cousin (deceased)', 'Glenn Rhee - brother-in-law', 'Jimmy - former boyfriend (deceased)', 'Zach - former boyfriend (deceased)', 'Hershal Rhee - newphew'],
                 first_appearance: 'Blodletting',
                 last_appearance: 'The Way Will Come When You Won"t Be (archive footage)',
                 status: {
@@ -575,7 +575,7 @@ const characters = [
                 hair: 'brown',
                 age: 'Early to Mid 30s',
                 occupation: ['Former Politician (Pre - Apocalypse)', 'NGO worker (Pre - Apocalypse)', 'former recruiter for the Alexandria Safe-Zone', 'member of the Militia'],
-                family: ['Eric Raleigh - former boyfriend (deceased)',' Gracie - adopted daughter'],
+                family: ['Eric Raleigh - former boyfriend (deceased)', ' Gracie - adopted daughter'],
                 first_appearance: 'Them',
                 last_appearance: 'present',
                 status: {
@@ -663,7 +663,7 @@ const characters = [
                 hair: 'brown',
                 age: 'Late 20s to early 30s',
                 occupation: ['Lookout for the Alexandria Safe-Zone (Post - Apocalypse)'],
-                family: ['Deanna Monroe - mother (deceased)','Reg Monroe -  father (deceased)', 'Aiden Monroe - brother (deceased)', 'Rosita Espinosa - ex-lover'],
+                family: ['Deanna Monroe - mother (deceased)', 'Reg Monroe -  father (deceased)', 'Aiden Monroe - brother (deceased)', 'Rosita Espinosa - ex-lover'],
                 first_appearance: 'Forget',
                 last_appearance: 'Hearts Still Beating',
                 status: {
@@ -849,28 +849,733 @@ const characters = [
         ]
     },
     {
-        extra: [
+        supporting_cast: [
             {
-                alive: ['Rick', 'Judith', 'Daryl', 'Carol', 'Maggie', 'Michonne', 'Tara', 'Eugine', 'Rosita', 'Gabriel', 'Aaron', 'Enid',  'Siddiq', 'Negan', 'Ezekiel', 'Jerry', 'Jadis / Annie', 'Laura', 'Arat', 'Amber', 'Frankie',  'Dwight', 'Alden', 'Gracie', 'Paul / Jesus', 'Bertie', 'Kal', 'Eduardo', 'Oscar', 'Marco', 'Hershel', 'Earl', 'Tammy', 'Ken', , 'Dianne', 'Jenny', 'Nabila', 'Henry', 'Rachel', 'Beatrice', 'Kathy', 'Cyndie', 'Barbara', 'Scott', 'Bob', 'Tanya', 'Mark', 'Gina', 'Regina', 'Potter', 'Jose', 'Brooke', 'D.J.', 'Norris', 'Mel', 'John', 'Justin', 'Jed',
-                ]
+                id: 1,
+                name: "Amy",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/23/Amy.1.jpg/revision/latest?cb=20120817232302",
+                actor: 'Emma Bell',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: '24',
+                occupation: ['College Student (Pre - Apocalypse)'],
+                family: ['Andrea - sister (deceased)'],
+                first_appearance: 'Days Gone Bye',
+                last_appearance: 'Hounded (voice only/hallucination)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Vatos (alive), Wildfire (zombified)',
+                        cause_of_death: 'Bitten by a walker.(alive)\nShot in the head by Andrea (zombified)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/3/37/AmyDeath.jpeg/revision/latest/scale-to-width-down/350?cb=20121018154019', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/ca/Vlcsnap-2014-01-26-13h17m51s146.png/revision/latest/scale-to-width-down/350?cb=20140126181906']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Amy is is Andrea's younger sister. When the dead begin to rise, Amy and Andrea joined the survivor group existing on the outer limits of the overrun city of Atlanta. She decided to stay at the camp whilst Andrea was still in Atlanta. She and her sister spent most of the time fishing for the group. In 'Vatos,' the night before her birthday, Amy is bitten by a walker in the opening stages of a walker swarm's attack on the exposed camp and dies in Andrea's arms. Andrea is distraught after Amy's death and wants to stay in the CDC and die, but Dale convinces Andrea not to."
             },
             {
-                dead: ['Carl', 'Lori', 'Shane', 'Leon', 'Jenny', 'Glenn', 'Theodore', 'Dale', 'Jacqui', 'Merle', 'Sophia', 'Ed', 'Andrea', 'Amy', 'Edwin', 'Beth', 'Hershal', 'Patricia', 'Otis', 'Jimmy', 'Terry', 'Mike', 'Andre',
-        
-                ],
+                id: 2,
+                name: "Theodore 'T-Dog' Douglas",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/a/ab/Tdogportrait.jpg/revision/latest/scale-to-width-down/359?cb=20120914135211",
+                actor: 'IronE Singleton',
+                gender: 'Male',
+                hair: 'Black',
+                age: 'Mid 30',
+                occupation: ['Former College Football Player (Pre - Apocalypse)', 'supply runner for the Atlanta Camp'],
+                family: ['Unknown'],
+                first_appearance: 'Guts',
+                last_appearance: 'Killer Within',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Killer within',
+                        cause_of_death: 'Bitten and later devoured by walkers in order to save Carol Peletier.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/1/1b/TDogBit_%28Killer_Within%29.PNG/revision/latest/scale-to-width-down/350?cb=20140419103311', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/96/IMG_20140918_201438.jpg/revision/latest/scale-to-width-down/350?cb=20140918192916']
+                    }
+                },
+                ethnicity: "African - American",
+                description: "Theodore 'T-Dog' Douglas is a muscular and well-intentioned man, who becomes extremely loyal to Rick. He is part of the group Rick meets in the Atlanta department store, and after Rick subdues Merle he accidentally drops the key to the handcuffs down a drainpipe leaving Merle trapped on the rooftop. T-Dog, Glenn, Rick, and Daryl go back to save Merle, but find them he cut his own hand off to free himself. T-Dog later cuts himself on an abandoned car on the highway and develops blood poisoning. He travels with the group to Hershel's farm and survives its destruction before traveling to the prison. He helps clear the prison but is bitten while securing the gate. He later sacrifices himself to save Carol during a walker attack."
             },
             {
-                undead: [
-        
-                ],
+                id: 3,
+                name: "Sophia Peletier",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/7e/A2ivrh_CUAASgjG.jpg/revision/latest/scale-to-width-down/320?cb=20120922025005",
+                actor: 'Madison Lintz',
+                gender: 'Female',
+                hair: 'Strawberry Blonde',
+                age: '12',
+                occupation: ['Assumed Secondary School Student (Pre - Apocalypse)'],
+                family: ['Carol Peletier - mother', 'Ed Peletier - father -deceased)'],
+                first_appearance: 'Tell it to the Frogs',
+                last_appearance: 'Nebraska (corpse)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'What Lies Ahead (alive, off-screen), Pretty Much Dead Already (zombified, out of mercy)',
+                        cause_of_death: 'Bitten on the shoulder by a walker and died of the infection.(alive, off-screen)\nShot in the head by Rick Grimes.(zombified, out of mercy)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/6/67/Screen_Shot_2014-10-04_at_16.22.58.png/revision/latest/scale-to-width-down/350?cb=20141004152222', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/c3/The-Walking-Dead-Season-2-Episode-8-Photos-4.jpg/revision/latest/scale-to-width-down/350?cb=20120222214555']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Sophia Peletier is Carol and Ed Peletier's 12-year-old daughter. Sophia and her mother are shown to be closer to the Grimes family after Ed is killed by a walker, and both Sophia and her mother become more outspoken and happy following Ed's demise. In the season two premiere, walkers chase Sophia into the woods, and she becomes detached from the group. The group searches for her, but in 'Pretty Much Dead Already,' it is revealed that Sophia became a walker and was being kept in Hershel's barn. Rick remorsefully shoots her, and she is buried at the farm."
             },
             {
-                unknown: [
-        
-                ],
-            }
+                id: 4,
+                name: "Axel",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/2f/The-Walking-Dead-Season-3-Episode-2-Sick-4.jpg/revision/latest/scale-to-width-down/640?cb=20121107154250",
+                actor: 'Lew Temple',
+                gender: 'Male',
+                hair: 'Blond',
+                age: 'Early to Mid 40s',
+                occupation: ['Possible Motorcycle Mechanic (Pre - Apocalypse)'],
+                family: ['Unknown'],
+                first_appearance: 'Seed',
+                last_appearance: 'Home',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Home',
+                        cause_of_death: 'Shot in the hed by The Governor.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/f4/AxelTVDeath.png/revision/latest/scale-to-width-down/350?cb=20130218030515', 'https://vignette.wikia.nocookie.net/walkingdead/images/0/07/640px-Axel_Muerto_3x10.jpg/revision/latest/scale-to-width-down/350?cb=20130225202153'] 
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Axel, a character from the comics, is an inmate-survivor at the prison, who was jailed for armed robbery. He initially leads others to believe he was in for a narcotics conviction. He appears to be much kinder than his fellow inmates and tends to calm things down. After Tomas' attempt at killing Rick, he and Oscar are accused of collaborating with Tomas and Andrew to kill Rick and his group. After Rick's group dispatches with Tomas and Andrew, Rick's group holds Axel and Oscar at gunpoint. After Axel begs for mercy and pleads that he and Oscar were not in on Tomas' plan, Rick decides to spare him and Oscar and allow them to live in another cellblock. Axel later pleads with Rick to let him and Oscar join Rick's group, but his request is denied. After helping the group clear out walkers that Andrew induced to invade the prison, Axel and Oscar are finally accepted into the group. Axel becomes close friends with Carol; as he amuses her with tales about his previous life, he is unexpectedly shot in the head by The Governor, in the opening volley of The Governor's attack on the prison. Carol uses Axel's body as a shield from the assault. In a later episode, Daryl tells Andrea that everybody liked Axel and he was part of the group. Axel was the last surviving prison inmate."
+            },
+            {
+                id: 5,
+                name: "Karen",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/75/IMG_20140912_001908.jpg/revision/latest?cb=20140911232416",
+                actor: 'Melissa Ponzio',
+                gender: 'Female',
+                hair: 'Dark Brown',
+                age: 'Mid to Late 30s',
+                occupation: ['Teacher (Pre - Apocalypse)'],
+                family: ['Tyreese Williams - former boyfriend (deceased)'],
+                first_appearance: 'Th Suicide King',
+                last_appearance: 'Consumed (flashback/corpse)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Infected',
+                        cause_of_death: 'Stabbed in the head and then later burned by Carol Peletier.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/2/2f/IDCE_Carol_stabbed_Karen.png/revision/latest/scale-to-width-down/350?cb=20170903033849', 'https://vignette.wikia.nocookie.net/walkingdead/images/7/76/KarenandDavidD.png/revision/latest/scale-to-width-down/350?cb=20131024111322']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Karen is one of The Governor's enforcers tasked with protecting Woodbury's wall. She is seen trying to leave Woodbury when conditions worsen, and she becomes angry when Noah is forced to join Woodbury's army. She is among The Governor's soldiers, who attack and fail to take over the prison. When the army rebels against returning to the prison, The Governor shoots all of them, except his top henchmen (Martinez and Shumpert), and Karen, who hides under a body and survives. She is found hiding in a truck by Rick, Michonne, and Daryl, and is among the Woodbury citizens, who are taken to the prison. By the time season four begins, she has started a relationship with Tyreese. When an influenza outbreak spreads throughout the prison, Karen begins to get sick and is quarantined until she gets better. However, Carol kills Karen and burns her body in an attempt to keep the virus from spreading."
+            },
+            {
+                id: 6,
+                name: "Caesar Martinez",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/99/Twds4gn-9.jpg/revision/latest?cb=20131121224000",
+                actor: 'Jose Pablo Cantillo',
+                gender: 'Male',
+                hair: 'Black',
+                age: 'Early to mid 30s',
+                occupation: ['Former Woodbury guard', 'Former second-in-command of Woodbury army'],
+                family: ['Unknown'],
+                first_appearance: 'Walk With Me',
+                last_appearance: 'Dead Weight',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Dead Weight',
+                        cause_of_death: 'Hit in the head adn fed to walkers by The Governor.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/8/8d/TGMurderingMartinez.jpg/revision/latest/scale-to-width-down/350?cb=20131127202909']
+                    }
+                },
+                ethnicity: "Hispanic - American",
+                description: "Caesar Martinez is one of The Governor's enforcers; he becomes The Governor's most trusted enforcer after Merle defects. Martinez is a sharpshooter, who favors a baseball bat; he is also shown wearing a baseball jersey bearing the number 23. He reveals to Daryl that walkers killed his wife and children when the apocalypse began. Merle, who acts as Martinez's sparring partner in Woodbury's gladiator-style tournaments, refers to him both as 'Brownie' and as 'Bro' in the same conversation because Merle was a redneck and junkie ('Say the Word'). Martinez assists in all of The Governor's attacks against the prison, although he is shocked when The Governor massacres his own army ('Welcome to the Tombs'). Because Martinez and Shumpert didn't disobey him in that episode, The Governor spares them, and together, the three depart. In 'Live Bait,' which reveals what occurred to the trio after The Governor slaughtered the Woodbury army, Martinez puts down a walker, who approaches The Governor and seems to have fallen into in an indifferent stupor. The next morning, The Governor awakens to find Martinez and Shumpert have abandoned him to fend for himself. Martinez and The Governor reunite when Martinez finds him in the pit trap. As revealed in 'Dead Weight,' Martinez has established himself as the leader of his group, with seconds-in-commands Pete and Mitch Dolgen. Martinez is comforted by The Governor's having apparently changed his ways (evidenced by his having started over with a new family). While playing golf with The Governor, Martinez reveals that Shumpert had died and admits to his worries about keeping the group safe. After Martinez proposes sharing leadership with him, The Governor strikes him down and feeds him to a pit of walkers."
+            },
+            {
+                id: 7,
+                name: "Milton Mamet",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/d/dd/MiltonS3.jpg/revision/latest/scale-to-width-down/319?cb=20121108100856",
+                actor: 'Dallas Roberts',
+                gender: 'Male',
+                hair: 'Dark Blond',
+                age: 'Early to mid 30s',
+                occupation: ['Researcher/Scientist (Pre and Post - Apocalypse)'],
+                family: ['Unknown'],
+                first_appearance: 'Walki With Me',
+                last_appearance: 'Welcome To The Tombs (alive and zombified)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Welcome To The Tombs',
+                        cause_of_death: 'Stabbed repeatedly in the abdomen by The Governor and left to bleed out.(alive)\nStabbed in the head by Andrea.(zombified)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/1/1c/Milton_Death_Pic_2.png/revision/latest/scale-to-width-down/350?cb=20130401050723', 'https://vignette.wikia.nocookie.net/walkingdead/images/f/f9/Miltondead.png/revision/latest/scale-to-width-down/350?cb=20130401041738']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Milton Mamet is a scientist, who serves as one of The Governor's right-hand men. He knew Phillip Blake before Phillip became 'The Governor,' and thus had a long-term relationship with him. Although Milton has allied himself with The Governor, he seems to disagree with The Governor's violent and unethical methods. He studies the decapitated bodies of Michonne's pair of walkers and researches the possibility of appealing to Michael Coleman's humanity, after Coleman dies and reanimates. Milton later helps Andrea escape to go try to make peace with Rick, and accompanies The Governor to the peace meeting with Rick. He expresses misgivings about The Governor's methods when he learns The Governor plans to kill everyone at the prison except for Michonne. He later tells Andrea to escape and, it is implied, he burns the captured walkers The Governor planned to use against the prison group. The Governor realizes that Milton revealed his plan to Andrea, and this causes a rift in Milton and The Governor's relationship. When Milton challenges The Governor to give up the war and forego avenging Michonne's vanquishing of zombified Penny, The Governor restrains and badly beats Milton for his betrayal. He then tasks Milton to kill Andrea, but Milton instead attacks The Governor, who then stabs Milton, mortally wounding him. The Governor locks Milton in the torture chamber with Andrea, deciding to let the reanimated Milton eat her. However, Milton attempts to assist Andrea by planting a pair of pliers within her reach with which to free herself and stab the zombified Milton in the head. Andrea fails to free herself in time, and a zombified Milton bites her before she puts him down. Rick's group later finds his body with a bitten, but alive, Andrea."
+            },
+            {
+                id: 8,
+                name: "Lizzie Samuels",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/f7/Inmates_Mika_and_Lizzie.png/revision/latest/scale-to-width-down/640?cb=20140217202533",
+                actor: 'Brighton Sharbino',
+                gender: 'Female',
+                hair: 'Dirty Blonde',
+                age: '12',
+                occupation: ['Assumed Grade School Student (Pre - Apocalypse)'],
+                family: ['Mika - sister (deceased)', 'Ryan Samuels - father (deceased)', 'Carol Peletier - adoptive mother'],
+                first_appearance: '30 Days Without An Accident',
+                last_appearance: 'What Happened and What"s Going On (hallucination',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'The Grove',
+                        cause_of_death: 'Shot in the back by Carol Peletier',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/0/04/Carolshootinglizzie.PNG/revision/latest/scale-to-width-down/350?cb=20140317031320']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Lizzie Samuels is Ryan's daughter and Mika's sister. She was first seen with other children naming zombies, and later at storytime. During the outbreak her father is bitten, and before dying he asks Carol to look after his daughters. Lizzie expresses intentions to stab his corpse in the head to prevent renanimation, but is emotionally unable to. Carol later tells her she is weak and needs to toughen up. Lizzie later gets the flu and is forced into quarantine. Carol is disturbed by Lizzie's apparently personal connection with walkers. When some infected residents succumb to the virus and reanimate, Lizzie rescues Glenn from a walker by leading it away. After being treated with medicine, she plays with Glenn's blood. When The Governor attacks the prison, she convinces the other children to help in the battle. She and Mika rescue Tyreese from two of The Governor's soldiers, after which she escapes with the children and Tyreese. Lizzie, Mika, Tyreese, and Judith get separated from Molly and Luke. Lizzie also is very sure Sasha is dead. She also shows a disliking towards Tyreese. After Lizzie kills Mika, Carol and Tyreese realize that she is too psychotic to be kept around & had to be executed in order for Judith to be safe, so Carol leads her out to the fields to look at the flowers, and as Lizzie tried to apologize for having threatened Carol and Tyreese, Carol executed her."
+            },
+            {
+                id: 9,
+                name: "Mika Samuels",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/f5/Mika_Infected_5.JPG/revision/latest/scale-to-width-down/259?cb=20131228022034",
+                actor: 'Kyla Kenedy',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: '10',
+                occupation: ['Elementary school Student (Pre - Apocalypse)'],
+                family: ['Lizzie - sister (deceased)', 'Ryan Samuels - father (deceased)', 'Carol Peletier - adoptive mother'],
+                first_appearance: '30 Days Without An Accident',
+                last_appearance: 'What Happened and What"S Going On (hallucination)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'The Grove',
+                        cause_of_death: 'Stabbed in the stomach by Lizzie Samuels.(alive, off-screen)\nPut down by Carol Peletier.(before reanimation, off-screen)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/6/61/Sisters.png/revision/latest/scale-to-width-down/350?cb=20140319000524']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Mika Samuels is Ryan's daughter and Lizzie's sister. She is seen naming the walkers and later at storytime. She loses her father during the outbreak and tries to calm Lizzie when Lizzie panics after being unable to stab her bitten father's corpse in the head to prevent reanimation. She and Lizzie become the adoptive daughters of Carol Peletier, as per their father's last wish. When The Governor attacks the prison, Mika and Lizzie rescue Tyreese from two soldiers. She escapes with the children and Tyreese. It is revealed that Mika, Lizzie, Tyreese, and Judith have been separated from Luke and Molly. Mika appears to be saddened by this. Lizzie, believing she will come back, kills Mika, and planned to kill Judith until Tyreese and Carol intervened."
+            },
+            {
+                id: 10,
+                name: "Lilly Chambler",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/8/87/Tara%2CMeghan%26Lilly407.jpg/revision/latest/scale-to-width-down/631?cb=20131125040417",
+                actor: 'Audrey Marie Anderson',
+                gender: 'Female',
+                hair: 'Brown',
+                age: 'Mid to late 30s',
+                occupation: ['Nurse (Pre - Apocalypse)'],
+                family: ['David Chambler - father (deceased)', 'Tara Chambler - sister', 'Meghan Chambler - daughter (deceased)', 'Phillip Blake - ex-boyfriend (deceased)'],
+                first_appearance: 'Life Bait',
+                last_appearance: 'Too Far Gone',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Too Far Gone (off-screen), Inmates (confirmed death)',
+                        cause_of_death: 'Surrounded and then devoured by walkers. (off-screen)',
+                        photo: ['']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Lilly Chambler is David's daughter, Meghan's mother, and Tara's sister. She is initially somewhat hostile towards The Governor ('Brian') and reluctantly allows him to take refuge in her family's building. She slowly comes to trust him, especially after he risks going to a walker-overrun assisted living facility to retrieve oxygen tanks for David, who is suffering from stage-4 lung cancer and will soon die (which she knows will be especially devastating to Meghan). When 'Brian' kills the reanimated David, Lilly appears to be upset for a brief while, but soon comes to terms with what happened. After David's burial, the four of them depart in search of other shelter. They spend the night sleeping in a catering truck, and Lilly and 'Brian' lay awake talking to each other. Slowly, they then begin to have sex. When the truck fails to start, the group abandons it and wanders on the road, until a swarm of walkers forces them to flee. They arrive at an open field, only to be stopped once again, when 'Brian' and Meghan fall into a pitfall trap containing several walkers, all of which 'Brian' kills before they can do any harm. Lilly and her family join Martinez's group. She is initially against The Governor's attacking the prison, but he assures her that she and Meghan will be safe. She and her daughter are left near a river; however, Meghan is bitten by a walker and dies. Lilly brings Meghan's corpse to the prison, where she witnesses The Governor decapitate Hershel and shoot Meghan in the head. After the battle ends, a bitter Lilly walks up to the dying Governor and shoots him in the head. Tara later mentions to Glenn that she witnessed Lilly become overwhelmed by walkers following the assault on the prison. She was eaten by walkers."
+            },
+            {
+                id: 11,
+                name: "Joe",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/f3/Joe_%28Alone%29.PNG/revision/latest?cb=20140310054847",
+                actor: 'Jeff Kober',
+                gender: 'Male',
+                hair: 'Gray',
+                age: 'Mid 50s',
+                occupation: ['Mechanic (Pre - Apocalypse)', 'Leader of the Claimers'],
+                family: ['Unknown'],
+                first_appearance: 'Claimed',
+                last_appearance: 'A',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'A',
+                        cause_of_death: 'Neck bitten and jgular ripped out by Rick Grimes.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/3/3f/Joe-Throat.PNG/revision/latest/scale-to-width-down/350?cb=20141001034054']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Joe is the leader of the Claimers, first seen by Rick on the porch of the house that they were raiding in 'Claimed.' He later appears in 'Alone,'' when his group finds Daryl exhausted on the road after he is separated from Beth. Despite a close encounter with Daryl punching Joe and almost shooting him, Joe is impressed by Daryl's use of a crossbow and decides to recruit him. Joe's group eventually catches Rick, Michonne and Carl, with the intent to avenge Lou's death. During the ensuing fight, Rick kills Joe by ripping his jugular out with his teeth."
+            },
+            {
+                id: 12,
+                name: "Mary",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/0/0d/IMG_20141209_165852.jpg/revision/latest?cb=20141209170051",
+                actor: 'Denise Crosby',
+                gender: 'Female',
+                hair: 'Auburn',
+                age: 'Mid to late 50s',
+                occupation: ['Uknown'],
+                family: ['Gareth - son (deceased)', 'Alex - son (deceased)'],
+                first_appearance: 'Us',
+                last_appearance: 'No Sanctuary',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'No Sanctuary',
+                        cause_of_death: 'Shot in the leg by Carol and then devoured by oncoming walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/a/ae/Mary_Death2.png/revision/latest/scale-to-width-down/350?cb=20180613203355', 'https://vignette.wikia.nocookie.net/walkingdead/images/d/da/Mary_Death1.png/revision/latest/scale-to-width-down/350?cb=20141013071110']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Mary is the mother of Gareth and Alex, who greets Glenn, Maggie, Sasha, Bob, Tara, Abraham, Eugene and Rosita when they arrive at Terminus. After Carol attacks Terminus to rescue Rick's group, she encounters Mary. Carol holds Mary at gunpoint, demanding to know where the group is holding Rick and the others. Mary explains that Terminus originally was a sanctuary, but it became a place where they would lure people to take their possessions and ultimately, eat them. Carol shoots her in the leg and allows a group of walkers to devour the crippled Mary. In 'Coda,' Father Stokes discovers Mary's Bible at the Hunters' campsite outside the elementary school, with the inscription 'Mary B.' on the first page."
+            },
+            {
+                id: 13,
+                name: "Dr Steven Edwards",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/30/Steven_Edwards_Crop.png/revision/latest?cb=20141027194543",
+                actor: 'Eric Jensen',
+                gender: 'Male',
+                hair: 'Light brown',
+                age: 'Late 30s',
+                occupation: ['Internal Medicine Doctor (Pre and Post - Apocalypse)'],
+                family: ['Unknown'],
+                first_appearance: 'Slabdown',
+                last_appearance: 'Coda',
+                status: {
+                    alive: "",
+                    dead: "",
+                },
+                ethnicity: "Caucasian - American",
+                description: "Dr. Steven Edwards is the hospital's sole doctor, who has a polite, but nervous demeanor to him. He noticeably disapproves of the harsh methods by which Officers Lerner and Gorman run the hospital, but despite his objections, his position is valued by the officers as the only medical professional on hand. He initially cares for Beth as she recovers and does his best to protect her from the officers, saying that he refuses to leave because, as ruthless as the officers are, it is still better inside the hospital than out in the real world. However, Beth grows suspicious of him when he tells her to give the drug Clozapine to Gavin Trevitt, a patient, who is also a doctor, as the drug ends up killing him. Although Dr. Edwards insists that he actually said Clonazepam, Beth is certain that he told her the name of the wrong drug on purpose. She accuses him of having the other doctor poisoned in order to retain his valued status as the only doctor, which he denies. He later helps Beth save Carol's life by telling her which medication she will need to give Carol. After the deaths of Beth and Lerner, Edwards offers to let Rick's group stay at the hospital, but Rick refuses."
+            },
+            {
+                id: 14,
+                name: "Dawn Lerner",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/1/11/AMC_504_Dawn_and_Steven.png/revision/latest/scale-to-width-down/640?cb=20141108122342",
+                actor: 'Christine Woods',
+                gender: 'Female',
+                hair: 'Dark Brown',
+                age: 'Mid 30s',
+                occupation: ['Lieutenant of Atlanta Police Department  (Pre and Post - Apocalypse)', 'former leader of Grady Memorial Hospital'],
+                family: ['Unknown'],
+                first_appearance: 'Slabdown',
+                last_appearance: 'Coda',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Coda',
+                        cause_of_death: 'Shot in the head by Daryl Dixon.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/b/b1/508_Dawn_Death.png/revision/latest/scale-to-width-down/350?cb=20141201034703']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Officer Dawn Lerner is the strict leader of the hospital, enforcing the rules with her group of fellow officers (who are the only occupants of the hospital to possess weapons). She believes that everyone must contribute to 'the greater good' and keep the hospital operation running long enough for the military to come save them, and often uses this mentality as a form of guilt in order to persuade those that they capture into doing work for the hospital once they recover. Though she is aware of Gorman's treatment of female patients, she does little to stop it. Lerner also treats the patients cruelly herself, repeatedly taking out her anger on Beth by striking her for the slightest mistakes or misunderstandings. Despite Beth's attempts to convince her that help will never come, Lerner refuses to believe it and insists that things will get better eventually, and it is far better to live under her rule than in the wilderness outside. Though she is furious at Beth for (as Lerner believes) killing Gorman and Joan as well as aiding Noah in his escape, she still refuses to kill or exile Beth, as she needs the extra help around the hospital. Though she tries to develop a bond with Beth, Beth is ultimately convinced that Lerner will never change, and her vision of a better future clouds her reasonable judgment. In the prisoner exchange at the end of 'Coda,' when Beth stabs Lerner in the shoulder with a pair of scissors, Lerner reacts impulsively in a moment of shock and her gun discharges, firing a single bullet directly through Beth's head and killing her instantly. Although Lerner pleads for mercy, Daryl shoots her directly in the forehead immediately afterward."
+            },
+            {
+                id: 15,
+                name: "Noah",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/57/504_Noah_Greenhouse.png/revision/latest/scale-to-width-down/368?cb=20141103042405",
+                actor: 'Tyler James Williams',
+                gender: 'Male',
+                hair: 'Black',
+                age: 'Late teeens',
+                occupation: ['Former Ward at Grady Memorial Hospital', 'Supply runner for the Alexandria Safe-Zone'],
+                family: [''],
+                first_appearance: 'Slabdown',
+                last_appearance: 'The Day Will Come When You Won"t Be (archive footage) ',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Spend',
+                        cause_of_death: 'Devoured by walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/8/89/Spend_promo_image_12.jpg/revision/latest/scale-to-width-down/350?cb=20150316231150']
+                    }
+                },
+                ethnicity: "African - American",
+                description: "Noah is a young male patient at the hospital, who often works as a janitor. He tells Beth that both he and his father were discovered by the group while the two of them were being surround by walkers, and their rescuers said that they could only save one of them. For this reason alone, Noah displays strong distaste for the officers almost immediately, saying that with their weapons and manpower, they likely could have saved his father as well. When Beth accidentally kills Dr. Gavin Trevitt by giving him the wrong medication, Noah takes the blame by saying that while he was cleaning, he knocked over a ventilation system and caused Trevitt to flatline. For this, Officers Dawn Lerner and Gorman take him out into the hall and beat him. Beth later apologizes, only for Noah to insist that he's fine and has been through worse. Nevertheless, Beth decides to form a plan for her and Noah to escape. They use the elevator shaft, which has served as a body disposal chute, and with a long chord of sheets tied together, they both make it down, although Noah loses his grip and falls, spraining one ankle. They both manage to make it outside, where Beth fends off several walkers with a handgun. Although Beth is stopped and restrained by the officers, Noah manages to make it to the outer gate and slips through, running off after he and Beth exchange a final glance. Noah later encounters Daryl Dixon and Carol Peletier and learns of their connection to Beth, but Carol is caught and Daryl takes Noah back to the church to take the rest of the group back to Atlanta to get Beth and Carol back. However, Beth is killed by Dawn and Rick allows Noah to stay with the group. In 'Spend,' Noah is killed by walkers during a botched mission to scavenge parts to repair Alexandria's solar power system."
+            },
+            {
+                id: 16,
+                name: "Sam Anderson / Ron Anderson",
+                photo: ["https://vignette.wikia.nocookie.net/walkingdead/images/9/9e/Play-time-is-over-overghfh.jpg/revision/latest?cb=20160218181913", 'https://vignette.wikia.nocookie.net/walkingdead/images/5/5a/AMC_607_Ron_Up_to_No_Good.png/revision/latest/scale-to-width-down/640?cb=20151124163606'],
+                actor: 'Major Dodson / Austin Abrams ',
+                gender: 'Male / Male',
+                hair: 'Dirty Blonde / Light Brown',
+                age: '10-12 / Mid to late teens',
+                occupation: ['Assumed Elementary School Student (Pre - Apocalypse)', 'Student'],
+                family: ['Pete Anderson - father (deceased)', 'Jessie Anderson - mother (deceased)', 'Ron Anderson - brother (deceased)', 'Sam Anderson - brother (deceased)'],
+                first_appearance: 'Remember',
+                last_appearance: 'No Way Out',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'No Way Out',
+                        cause_of_death: 'Sam - Devoured by walkers. / Ron - Stabbed through the heart by Michonne to protect Rick from being shot, then immediately devoured by walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/7/75/Samdeath.jpg/revision/latest/scale-to-width-down/350?cb=20170123165902', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/cd/Ron_death_and_gunshot.png/revision/latest/scale-to-width-down/350?cb=20160215205953', 'https://vignette.wikia.nocookie.net/walkingdead/images/5/5c/Ron_being_devoured.png/revision/latest/scale-to-width-down/350?cb=20160215210020' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Ron Anderson introduces Carl to Mikey and Enid, who are playing video games and explains that he can play with them. He is the brother to Sam and son of Jessie and Pete. He is also Enid's boyfriend. Ron develops a bitter relationship with Rick and Carl, due to Rick executing his father under Deanna's orders and Carl's budding relationship with Enid. After Jessie and Sam are killed during the walker invasion of Alexandria, Ron tries to shoot Rick only to be killed by Michonne. However, his gun goes off as he falls, destroying Carl's right eye.\nSam Anderson is very briefly seen playing with his mother (Jessie) and brother (Ron) in a distance, whilst Rick is worrying about Carl and Judith. Sam catches Carol stealing weapons from the pantry and she threatens him to keep it a secret. Despite the threat and Carol's continuing harsh words to keep him at arm's length Sam forms an attachment to Carol, doing favors for her, but also asks for a gun leading Carol to learn of his father's abusive relationship with his mother. When Rick and Pete fight in the streets Sam runs to Carol for protection rather than Jessie, and subsequently Jessie is heartbroken when she learns that Sam wanted a gun to protect her. During the walker invasion of Alexandria, he refuses to leave his mother's side, but is traumatized to see a young boy as a walker. While stunned, Sam is devoured by walkers."
+            },
+            {
+                id: 17,
+                name: "Nicholas",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/71/AMC_603_Glenn_Nicholas_Trapped.png/revision/latest/scale-to-width-down/640?cb=20151026094602",
+                actor: 'Michael Traynor',
+                gender: 'Male',
+                hair: 'Dark Brown',
+                age: 'Late 30s to early 40s',
+                occupation: ['Supply runner for the Alexandria Safe-Zone'],
+                family: ['Unknown'],
+                first_appearance: 'Remember',
+                last_appearance: 'Heads Up (corpse, voice-only)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Thank You',
+                        cause_of_death: 'Suicide via self-inflicted gunshot to the head adn devoured by walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/6/6d/603_Nicholas_Suicide.png/revision/latest/scale-to-width-down/350?cb=20151026210716', 'https://vignette.wikia.nocookie.net/walkingdead/images/0/0d/Nicholas-fall.jpg/revision/latest/scale-to-width-down/350?cb=20151103220157', 'https://vignette.wikia.nocookie.net/walkingdead/images/4/4c/Nicholas-0.jpg/revision/latest/scale-to-width-down/350?cb=20160302013402']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Nicholas greets the group as they enter and asks them to hand over their weapons. He joins Aiden when he takes Glenn, Tara and Noah out to attack some zombies. He goes with Rick's group to lure a herd of walkers away from Alexandria, which results in his death."
+            },
+            {
+                id: 18,
+                name: "Tobin",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/6/68/AMC_612_Carol_Tobin_Flirting.png/revision/latest/scale-to-width-down/640?cb=20160307110527",
+                actor: 'Jason Douglas',
+                gender: 'Male',
+                hair: 'Brown (graying)',
+                age: 'Late 40s to early 50s',
+                occupation: ['Former Construction Foreman for the Alexandria Safe-Zone'],
+                family: ['Carol Peletier - ex-girlfriend'],
+                first_appearance: 'Forget',
+                last_appearance: 'Do Not Send Us Astray',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Do Not Send Us Astray',
+                        cause_of_death: 'Injured by Derek with a tainted weapon and succumbed to the infection. (alive)\nStabbed in the head by Carol Peletier.(zombified, out of mercy)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/1/1a/DNSUA_tobin_get_stabbed.png/revision/latest/scale-to-width-down/350?cb=20180326105107', 'https://vignette.wikia.nocookie.net/walkingdead/images/0/01/DNSUA_tobin%27s_death.png/revision/latest/scale-to-width-down/350?cb=20180326105308']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
+            {
+                id: 19,
+                name: "Dr Denise Cloyd",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/c/c8/AMC_605_Tara_Denise_Porch.png/revision/latest/scale-to-width-down/640?cb=20151113145004",
+                actor: 'Merritt Wever',
+                gender: 'Female',
+                hair: 'Dirty Blonde',
+                age: 'Early to mid 30s',
+                occupation: ['Psychiatrist (Pre - Apocalypse)', 'Medic for the Alexandria Safe-Zone'],
+                family: ['Tara Chambler - former girlfriend', 'Dennis Cloyd - twin brother'],
+                first_appearance: 'JSS',
+                last_appearance: 'Twice as Far',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Twice as Far',
+                        cause_of_death: 'Accidentally shot through the eye with Daryl"s crossbow by Dwight.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/7/7b/DeniseDemise.jpg/revision/latest/scale-to-width-down/350?cb=20160321014807', 'https://vignette.wikia.nocookie.net/walkingdead/images/2/2f/Denise_Dead.jpg/revision/latest/scale-to-width-down/350?cb=20160321105354']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Dr. Denise Cloyd is a psychiatrist. She lost her nerve to be a surgeon in Medical School, but now that Pet, the group's previous surgeon, is dead. Denise is forced to become the group's doctor and surgeon, at the urging of Eugene, who tells her 'You don't want to be a coward. I know.' She finally agrees to operate on a dying Holly, but cannot save her. When Scott is put into Denise's care, she tells Tara he will most likely die, but Tara tells her not to be afraid. After Tara leaves, Denise manages to stabilize Scott's infection. Shortly thereafter, she finds Tara and, much to Tara's surprise, kisses her. During the walker herd overrunning Alexandria, she is taken hostage at gunpoint by the Alpha Wolf and used so that he can escape his prison cell while Carol and Morgan are both unconscious, leaving Tara, Rosita and Eugene to watch on helplessly. The Alpha Wolf later tells her that he wasn't always the way he was and had changed into the person he is now. He shows signs of changing for the good, saving Denise's life from a walker attack that left him bitten. Though Denise offered to treat the man as a result, Carol shot him and he was devoured by walkers, telling Denise to run as he did so. Returning to her infirmary, Denise finds that Carl Grimes has been shot through the eye and saves his life at the cost of his eye. When Rick and Daryl are going to leave for a run, Denise asks Daryl to get some orange soda for Tara, who is going on a two-week supply run with Heath, Daryl agrees. Later, Rick and Daryl bring an unconscious Jesus to Denise so she can check him out. After Jesus escapes, Denise notifies Abraham. Before the group head to the Hilltop Colony, Denise bakes Daryl an oak cake, which he is reluctant to take, and he hopes it tastes better than it looks. Denise is seen present at the meeting in the church, listening to Rick's speech about the danger of the Saviors. When Rick asked if anyone objected to the idea of attacking the Saviors, Denise remained silent. Later, when Denise is talking to Tara, Tara tells Denise she loves her. Tara tells Denise she doesn't have to reply though and Denise says she will after Tara returns from her two-week supply run with Heath. Tara suggests that Denise come along on to the Saviors compound and then she can come on the run immediately after. Denise says she wants to go, but can't as she's the only doctor Alexandria has. Tara understands and the two kiss. Some time later, Denise convinces Daryl and Rosita to go on a scavenging run to an apothecary, which she believes is stocked up with medication and drugs. After successfully looting the place, they started for home, during which time Denise has a close encounter with a walker to get a can of soda for Tara. After Daryl and Rosita scold her for taking an unnecessary risk, Denise begins to lecture them on how she was trying to confront her fears and become strong as them. As she speaks, she gets shot by an arrow through the right eye by Dwight, killing her. Dwight later reveals she was not the one he was aiming for."
+            },
+            {
+                id: 20,
+                name: "Sherry",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/37/Sherry_7x03_talking_to_Daryl_%282%29.jpg/revision/latest/scale-to-width-down/640?cb=20170108174016",
+                actor: 'Christine Evangelista',
+                gender: 'Female',
+                hair: 'Brown',
+                age: 'Late 20s to early 30s',
+                occupation: ['Babysitter (Pre - Apocalypse)'],
+                family: ['Tina - sister (deceased)', 'Dwight - ex-husband', 'Negan - former "husband"'],
+                first_appearance: 'Always Accountable',
+                last_appearance: 'Unknown',
+                status: {
+                    alive: "",
+                    dead: ""
+                },
+                ethnicity: "Caucasian - American",
+                description: "Sherry is Dwight's wife, first encountered by Daryl in the burnt forest with Dwight and her sister Tina. They are on the run from The Saviors, after stealing insulin for Tina. Daryl attempts to help them, though after Tina's death, Sherry and Dwight steal Daryl's motorcycle and crossbow and abandon him. It is later revealed that as punishment for stealing and fleeing from The Sanctuary, Dwight took an iron to the face and Sherry agreed to be one of Negan's wives in order to save Dwight's life. Sherry encounters Daryl in The Sanctuary after his capture, and is remorseful for stealing from him previously. Offscreen, Sherry frees Daryl from The Sanctuary and also escapes herself. Negan recruits Dwight to go and bring her back. Dwight travels to their old home, where they planned to meet up if things went bad, and finds a note from Sherry (along with her wedding rings), in which she admits to freeing Daryl and apologises for forcing Dwight into Negan's world. Her current whereabouts are unknown."
+            },
+            {
+                id: 21,
+                name: "Paula (Savior)",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/fa/TWD_613_GP_1002_0264-RT_FULL.jpg/revision/latest/scale-to-width-down/640?cb=20160424172949",
+                actor: 'Alicia Witt',
+                gender: 'Female',
+                hair: 'Red',
+                age: 'Mid to late 30s',
+                occupation: ['Secretary (Pre - Apocalypse)', 'Former Lieutenant of the Saviors'],
+                family: ['Donnie - lover (deceased)', ],
+                first_appearance: 'Not Tomorrow Yet (voice only), The Same Boat',
+                last_appearance: 'The Same Boat',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Vatos (alive), Wildfire (zombified)',
+                        cause_of_death: 'Shoved onto a pike by Carol Peletier and impaled, devoured by a nearby walker. (alive)\nStabbed in the head by Maggie Greene.(zombified)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/7/7d/Paulabitten.jpg/revision/latest/scale-to-width-down/350?cb=20160314023959', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/9e/PaulaZombifiedDeath.png/revision/latest/scale-to-width-down/350?cb=20160316000105']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Paula is first heard talking to Rick over a walkie-talkie telling him she only wants to talk. When he denies her, she reveals she has Carol and Maggie held captive. Paula brings them back to their compound where they tie and gag them. Paula is the counterpart to Carol. When Carol and Maggie escape from the compound, Carol threatens to kill Paula, but won't despite Maggie telling her to do so. Instead she shoves her into a pole whereupon she is devoured by a walker and killed by Maggie after she turns."
+            },
+            {
+                id: 22,
+                name: "Jared",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/23/Amy.1.jpg/revision/latest?cb=20120817232302",
+                actor: 'Joshua Mikel',
+                gender: 'Male',
+                hair: 'Brown',
+                age: 'Late 20s to early 30s',
+                occupation: ['Unknown'],
+                family: ['Unknown'],
+                first_appearance: 'The Well',
+                last_appearance: 'Wrath (hallucination)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Still Gota Mean Something',
+                        cause_of_death: 'Trapped by Morgan Jones and devoured by walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/4/44/Jared%27sDeath-1.png/revision/latest/scale-to-width-down/350?cb=20180402071429', 'https://vignette.wikia.nocookie.net/walkingdead/images/e/e1/Jared%27sDeath-2.png/revision/latest/scale-to-width-down/350?cb=20180402072215', 'https://vignette.wikia.nocookie.net/walkingdead/images/2/2e/Jared%27sDeath-3.png/revision/latest/scale-to-width-down/350?cb=20180402072739']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Jared is a member of the Saviors, he works for Gavin. This one causes the death to Benjamin when it shoots in the legs which causes that the Kingdom rises against Negan. He is captured by Paul 'Jesus' Rovia and taken as a prisoner to the Hilltop colony. When the Saviors attack Hilltop he takes the opportunity to escape with other Saviors. Later, Jared and his company take Morgan and Rick as hostages but are released due to Rick’s deception claiming help against a swarm of walkers that invaded their refuge. Shortly after Morgan and Rick manage to kill the other men, Morgan fights with Jared and ends up caging him in with a multitude of walkers who end up devouring him."
+            },
+            {
+                id: 23,
+                name: "Morales",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/4/43/Twd_802_jld_0523_0329-rt.jpg/revision/latest/scale-to-width-down/640?cb=20171030021253",
+                actor: 'Juan Gabriel Pareja',
+                gender: 'Male',
+                hair: 'Black',
+                age: 'Early 40s',
+                occupation: ['Former supply runner for the Atlanta Survivor Camp'],
+                family: ['Miranda Morales - wife (deceased)', 'Eliza Morales - daughter (deceased)', 'Louis Morales - son (deceased)'],
+                first_appearance: 'Guts',
+                last_appearance: 'Monters',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Monsters',
+                        cause_of_death: 'Shot in the head with a crossbow bolt by Daryl Dixon.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/7/7b/Mtrs_Morales%27_death.png/revision/latest/scale-to-width-down/350?cb=20171106064932']
+                    }
+                },
+                ethnicity: "Hispanian - American",
+                description: "Moralesis a member of the Saviors, featured in 'The Damned'. He surprises Rick and holds him by gunpoint inside a Savior outpost. Rick recognizes him and reminds him that he knew him from Atlanta, but Morales responds that those events were a long time ago. He informs Rick that he has called more Saviors for backup. However, he is found by Daryl, who immediately shots him in the head with a crossbow arrow, instantly killing him."
+            },
+            {
+                id: 24,
+                name: "Benjamin",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/3a/The-walking-dead-s07e02-the-well-014_-_C%C3%B3pia.jpg/revision/latest/scale-to-width-down/640?cb=20161112134745",
+                actor: 'Logan Miller',
+                gender: 'Male',
+                hair: 'Brown',
+                age: 'Late teens',
+                occupation: ['Assumed High School Student (Pre - Apocalypse)', 'Kingdom soldier'],
+                family: ['Henry - brother'],
+                first_appearance: 'The Well',
+                last_appearance: 'Bury Me Here',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Bury Me Here',
+                        cause_of_death: 'Shot in the leg by Jared and later died of blood loss. (alive)\nStabbed in the head by Morgan Jones. (before reanimation)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/9/91/AMC_713_Ben1.png/revision/latest/scale-to-width-down/350?cb=20170313133702', 'https://vignette.wikia.nocookie.net/walkingdead/images/b/b3/AMC_713_Ben2.png/revision/latest/scale-to-width-down/350?cb=20170313133926']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
+            {
+                id: 25,
+                name: "Jerry",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/b/b9/The-walking-dead-episode-804-ezekiel-payton-3-935.jpg/revision/latest/scale-to-width-down/640?cb=20171113062939",
+                actor: 'Cooper Andrews',
+                gender: 'Male',
+                hair: 'Black',
+                age: 'Early to mid 30s',
+                occupation: ['Steward and Bodyguard for King Ezekiel', 'member of the Militia'],
+                family: ['Nabila - girlfriend'],
+                first_appearance: 'The Well',
+                last_appearance: 'Present',
+                status: {
+                    alive:  {
+                        status: "Alive",
+                        lifespan: "The Well to present"
+                    },
+                    dead: ""
+                },
+                ethnicity: "Samoan - American",
+                description: "At some point after the apocalypse he became one of the most trusted knights in Ezekiel's court. He later became his personal steward and bodyguard making sure to never leave his sight. He is almost never seen without his signature melee weapon—a two-handed battle axe."
+            },
+            {
+                id: 26,
+                name: "Dianne",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/53/The-walking-dead-s07e02-the-well-024.jpg/revision/latest/scale-to-width-down/640?cb=20161113150438",
+                actor: 'Kerry Cahill',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: 'Mid 30s',
+                occupation: ['Kingdom soldier', 'member of the Militia'],
+                family: ['Unknown'],
+                first_appearance: 'The Well',
+                last_appearance: 'Present',
+                status: {
+                    alive:{
+                        status: "Alive",
+                        lifespan: "The Well to present"
+                    }, 
+                    dead: ""
+                },
+                ethnicity: "Caucasian - American",
+                description: "Dianne is one of Ezekiel's top soldiers, is an expert in the use of the bow and arrow."
+            },
+            {
+                id: 27,
+                name: "Henry",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/97/Henry_%28Bury_Me_Here%29.png/revision/latest?cb=20170314153626",
+                actor: 'Marcsen Lintz',
+                gender: 'Male',
+                hair: 'Blond',
+                age: '10 -12',
+                occupation: ['Student (Pre - Apocalypse)', 'member of the Militia'],
+                family: ['Benjamin - brother (deceased)', 'Ezekiel - adoptive father'],
+                first_appearance: 'The Well',
+                last_appearance: 'Present',
+                status: {
+                    alive: {
+                        status: 'Alive',
+                        lifespan: 'The Well to present'
+                    },
+                    dead: ""
+                },
+                ethnicity: "Caucasian - American",
+                description: "Henry is a resident of the Kingdom and the younger brother to Benjamin. Following the loss of his family he has been adopted by King Ezekiel and Carol Peletier."
+            },
+            {
+                id: 28,
+                name: "Natania",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/56/Season_seven_natania_%282%29.png/revision/latest/scale-to-width-down/356?cb=20170524235808",
+                actor: 'Deborah May',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: 'Late 50s to early 60s',
+                occupation: ['Former Leader of Oceanside'],
+                family: ['Cyndie - granddaughter'],
+                first_appearance: 'Swear',
+                last_appearance: 'How It"s Gotta Be',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'How It"s Gotta Be',
+                        cause_of_death: 'Shot by Enid.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/f2/HTGB_Enid_shot_Natania.png/revision/latest/scale-to-width-down/350?cb=20171211071728', 'https://vignette.wikia.nocookie.net/walkingdead/images/6/64/NTGB_Natania%27s_corpse.png/revision/latest/scale-to-width-down/350?cb=20171211071808']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Natania has shown herself to be a highly intelligent, caring, and stubborn woman who is a determined survivor and a strong leader to those in her group. Natania has shown extreme devotion to the safety and well-being of her people and family and she appears to be willing to do anything in order to keep her group safe from danger, even if it includes resorting to violence. After losing a majority of her group to the Saviors following their failed rebellion, Natania grew into a more hardened and paranoid individual and she refused to allow her group to be enslaved and punished again and therefore escaped Negan's tyranny with her group and built a new community, Oceanside. Natania however remained fearful of the Saviors and she viewed them as being unstoppable and therefore to prevent the Saviors from finding her group again, any stranger that encountered her group was slaughtered on her orders. She completely refuses to join Rick and his people in fighting the Saviors as she refuses to lose to them again and simply allows them to rob her and her people of their weapons, showing that she is willing to make extreme sacrifices in order to avoid conflicts with the Saviors again. Eventually her stubbornness and cruelty towards outside members of her group would eventually lead to her death by Enid's hand."
+            },
+            {
+                id: 29,
+                name: "Cyndie",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/92/Cyndie_7x15.png/revision/latest/scale-to-width-down/640?cb=20170329195455",
+                actor: 'Sydeny Park',
+                gender: 'Female',
+                hair: 'Black',
+                age: 'Late teens to early 20s',
+                occupation: ['High School Student (Pre - Apocalypse)', 'Leader of the Oceanside', 'co-leader of the Militia'],
+                family: ['Natania - grandmother (deceased)'],
+                first_appearance: 'Swear',
+                last_appearance: 'Present',
+                status: {
+                    alive: {
+                        status: 'Alive',
+                        lifespan: 'Swear to present'
+                    },
+                    dead: ""
+                },
+                ethnicity: "Caucasian/African - American",
+                description: "At some point in the outbreak, Cyndie, her mother, brother and grandmother, Natania managed to survive and began to build the community of Oceanside. After getting into conflict with the Saviors, Cyndie and the rest of the Oceansiders decided to rebel against them. However, the group failed, causing the execution of her mother, brother and numerous other residents. The remaining residents fled the community, in hopes to find a new home. Since then, Cyndie, Natania and the other Oceansiders relocated to Oceanside Cabin Motor Court, where they have been peacefully living, and is firmly established with high security. She is a resident and the current leader of the Oceanside community after her grandmother, Natania was killed by Enid. She is also one of the four co-leaders of the Militia along with Rick Grimes, Maggie Rhee and Ezekiel."
+            },
+            {
+                id: 30,
+                name: "Beatrice",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/23/Amy.1.jpg/revision/latest?cb=20120817232302",
+                actor: 'Briana Venskus',
+                gender: 'Female',
+                hair: 'Brown',
+                age: 'Late 20s to early 30s',
+                occupation: ['Member of the Militia'],
+                family: ['Unknown'],
+                first_appearance: 'Swear',
+                last_appearance: 'Present',
+                status: {
+                    alive: {
+                        status: 'Alive',
+                        lifespan: 'Swear to present'
+                    },
+                    dead: ""
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
+            {
+                id: 31,
+                name: "Eastman",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/96/Season_six_eastman.png/revision/latest/scale-to-width-down/335?cb=20151104143029",
+                actor: 'John Carroll Lynch',
+                gender: 'Male',
+                hair: 'Black (balding)',
+                age: 'Late 40s',
+                occupation: ['Forensic psychiatrist'],
+                family: ['Tabitha - pet (deceased)'],
+                first_appearance: 'Here"s Not Here (flashback)',
+                last_appearance: 'Here"s Not Here (flashback)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Here"s Not Here (flashback)',
+                        cause_of_death: 'Bitten by a walker. Shot in the head by Morgan Jones. (before reanimation)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/4/45/Eastman-death.png/revision/latest?cb=20151107014956', 'https://vignette.wikia.nocookie.net/walkingdead/images/2/2f/Eastman_Bitten.png/revision/latest/scale-to-width-down/350?cb=20151105121955']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
         ]
-    },
+    }
 ];
 
 module.exports = { characters };
