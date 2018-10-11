@@ -31,7 +31,10 @@ app.get("/characters", (req, res) => res.send(JSON.stringify(characters.characte
 app.get("/characters/:id", (req, res) => {
     const id = req.params.id;
     let parsedId = Number(id);
-    let filteredCharacter = characters.characters[0].main_characters.filter(char => char.id === parsedId);
+    const myCharacters = [];
+    characters.characters[0].main_characters.map((c) => myCharacters.push(c));
+    characters.characters[1].supporting_cast.map(c => myCharacters.push(c))
+    let filteredCharacter = myCharacters.filter(char => char.id === parsedId);
     res.send(filteredCharacter[0]);
 });
 

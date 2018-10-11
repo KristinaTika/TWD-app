@@ -121,7 +121,8 @@ const books = [
             },
         ] 
     },
-    {
+    {   
+        id: 7,
         name: 'The Walking Dead: Search and Destroy',
         photo: 'https://vignette.wikia.nocookie.net/walkingdead/images/8/89/The_Walking_Dead_novel_sandd.jpg/revision/latest?cb=20160610171326',
         author: ['Robert Kirkman', 'Jay Bonansinga'],
@@ -136,7 +137,7 @@ const books = [
         ] 
     },
     {
-        id: 7,
+        id: 8,
         name: 'The Walking Dead: Return to Woodbury',
         photo: 'https://vignette.wikia.nocookie.net/walkingdead/images/4/42/The-walking-dead-return-to-woodbury.jpg/revision/latest/scale-to-width-down/329?cb=20170217053604',
         author: ['Robert Kirkman', 'Jay Bonansinga'],
