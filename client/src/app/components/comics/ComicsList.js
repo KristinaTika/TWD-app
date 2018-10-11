@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchComics } from '../../action-creators/actions';
+import { fetchComics, handleErrors } from '../../action-creators/actions';
 import ComicItem from './ComicItem';
+import Loader from '../../partials/Loader';
+import './ComicsList.css';
 
 class ComicsList extends Component {
 
@@ -10,16 +12,12 @@ class ComicsList extends Component {
     }
 
     render() {
-        const { comics} = this.props;
-        let renderComics = <div> loading </div>
-        if(!comics) {
-            return renderComics;
-        }
-
-        renderComics = comics.map((c, i) => <ComicItem key={i} comic={c} />)
+        const { comics, error } = this.props;
         return (
-            <div>
-                {renderComics}
+            <div className="wrapper">
+                <ul>
+                    {error ? error : !comics ? <Loader /> : comics.map((c, i) => <ComicItem key={i} comic={c} />)}
+                </ul>
             </div>
         );
     }
@@ -27,8 +25,9 @@ class ComicsList extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        comics: state.comics
+        comics: state.comics,
+        error: state.error
     }
 }
 
-export default connect(mapStateToProps, { fetchComics}) (ComicsList);
+export default connect(mapStateToProps, { fetchComics, handleErrors })(ComicsList);
