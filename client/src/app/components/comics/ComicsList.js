@@ -6,18 +6,34 @@ import Loader from '../../partials/Loader';
 import './ComicsList.css';
 
 class ComicsList extends Component {
+    constructor(props) {
+        super(props);
 
+        this.mapItems = this.mapItems.bind(this);
+    }
     componentDidMount() {
         this.props.fetchComics();
+    }
+
+    mapItems(items) {
+        return items.map((item, i) => <li key={i}>{item} </li>);
     }
 
     render() {
         const { comics, error } = this.props;
         return (
             <div className="wrapper">
-                <ul>
-                    {error ? error : !comics ? <Loader /> : comics.map((c, i) => <ComicItem key={i} comic={c} />)}
-                </ul>
+                {error ? error : !comics ? <Loader /> :
+                    <div>
+                        <p> {comics.info} </p>
+                        <div>
+                            <span className="bold-title">Publishers: </span>
+                            <span>{this.mapItems(comics.publisher)}</span>
+                        </div>
+                        <ul>
+                            {comics.volumes.map((c, i) => <ComicItem key={i} comic={c} />)}
+                        </ul>
+                    </div>}
             </div>
         );
     }

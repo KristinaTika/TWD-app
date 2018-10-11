@@ -5,6 +5,8 @@ export const FETCH_BOOKS = 'FETCH_BOOKS';
 export const FETCH_SINGLE_BOOK = 'FETCH_SINGLE_BOOK';
 export const FETCH_CHARACTERS = "FETCH_CHARACTERS";
 export const FETCH_COMICS = "FETCH_COMICS";
+export const FETCH_SINGLE_VOLUME = 'FETCH_SINGLE_VOLUME';
+export const FETCH_SINGLE_ISSUE = 'FETCH_SINGLE_ISSUE';
 export const FETCH_SINGLE_CHARACTER = "FETCH_SINGLE_CHARACTER";
 export const HANDLE_ERRORS = 'HANDLE_ERRORS';
 export const HANDLE_SEASONS = 'HANDLE_SEASONS';
@@ -83,7 +85,7 @@ export const fetchSingleCharacter = (id) => {
 const handleComics = (comics) => {
     return {
         type: FETCH_COMICS,
-        comics: comics.volumes
+        comics: comics
     }
 }
 
@@ -92,6 +94,38 @@ export const fetchComics = () => {
         return axios.get(comicsEndpoint)
             .then(res => dispatch(handleComics(res.data)))
             .catch(res => dispatch(handleErrors(res.message)));
+    }
+}
+
+const handleSingleVolume = (volume) => {
+    console.log(volume);
+    return {
+        type: FETCH_SINGLE_VOLUME,
+        volume
+    }
+}
+
+export const fetchSingleVolume = (title) => {
+    return dispatch => {
+        return axios.get(`${comicsEndpoint}/volumes/${title}`)
+            .then(res => dispatch(handleSingleVolume(res.data)))
+            .catch(err => dispatch(handleErrors(err.message)));
+    }
+}
+
+const handleSingleIssue = (issue) => {
+    console.log(issue);
+    return {
+        type: FETCH_SINGLE_ISSUE,
+        issue
+    }
+}
+
+export const fetchSingleIssue = (title, id) => {
+    return dispatch => {
+        return axios.get(`${comicsEndpoint}/volumes/${title}/${id}`)
+            .then(res => dispatch(handleSingleIssue(res.data)))
+            .catch(err => dispatch(handleErrors(err.message)));
     }
 }
 

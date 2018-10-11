@@ -6,7 +6,7 @@ const ComicItem = (props) => {
 
     const { id, title, volume, photo, } = props.comic;
     return (
-        <Link to={`/comics/${id}`}>
+        <Link to={`/comics/volumes/${title}`}>
             <li>
                 <div>
                     <img src={photo} alt={title} />
