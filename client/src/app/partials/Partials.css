@@ -19,3 +19,8 @@ header nav a:hover {
     border-bottom: 2px solid white;
     border-top: 2px solid white;
 }
+
+footer {
+    justify-content: center;
+    margin-top: 30px;
+}

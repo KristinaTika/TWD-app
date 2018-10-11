@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchCharacters } from '../../action-creators/actions';
+import { fetchCharacters, handleErrors } from '../../action-creators/actions';
 import Character from './Character';
-
+import './CharacterList.css';
+import Loader from '../../partials/Loader';
 
 class CharactersList extends Component {
 
@@ -11,15 +12,12 @@ class CharactersList extends Component {
     }
 
     render() {
-        const { characters } = this.props;
-        let displayCharacters = <div> loading ... </div>;
-        if (characters.length === 0) {
-            return displayCharacters;
-        }
-        displayCharacters = characters.map((char, i) => <Character key={i} character={char} />);
+        const { characters, error } = this.props;
         return (
-            <div>
-                {displayCharacters}
+            <div className="wrapper">
+                {
+                   error ? error : !characters ? <Loader /> : characters.map((character, i) => <Character key={i} character={character} />)
+                }
             </div>
         );
     }
@@ -27,8 +25,9 @@ class CharactersList extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        characters: state.characters
+        characters: state.characters,
+        error: state.error
     }
 }
 
-export default connect(mapStateToProps, { fetchCharacters })(CharactersList);
+export default connect(mapStateToProps, { fetchCharacters, handleErrors })(CharactersList);

@@ -32,10 +32,9 @@ class SingleBook extends Component {
 
     render() {
         const { book, error } = this.props;
-        let renderBook = <BookLoader />;
         return (
             <div className="wrapper">
-                {error ? error : !book ? renderBook :
+                {error ? error : !book ? <BookLoader /> :
                     <div>
                         <h1> {book.name} </h1>
                         <div>

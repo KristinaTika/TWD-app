@@ -8,15 +8,14 @@ import BookLoader from '../../partials/BookLoader';
 class BooksList extends Component {
 
     componentDidMount() {
-        this.props.fetchBooks()
+        this.props.fetchBooks();
     }
 
     render() {
         const { books, error } = this.props;
-        let renderBooks = <BookLoader />
         return (
             <div>
-                {error ? error : !books ? renderBooks : books.map((book, i) => <BookItem key={i} book={book} />)}
+                {error ? error : !books ? <BookLoader /> : books.map((book, i) => <BookItem key={i} book={book} />)}
             </div>
         );
     }

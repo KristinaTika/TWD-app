@@ -48,7 +48,9 @@ export const fetchSingleBook = (id) => {
 }
 
 const handleCharacters = (characters) => {
-    let myCharacters = characters[0].main_characters;
+    const myCharacters = [];
+    characters[0].main_characters.map((c) => myCharacters.push(c));
+    characters[1].supporting_cast.map(c => myCharacters.push(c));
     return {
         type: FETCH_CHARACTERS,
         characters: myCharacters
