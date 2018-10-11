@@ -4,7 +4,7 @@ import './ComicItem.css';
 
 const ComicItem = (props) => {
 
-    const { id, title, volume, photo, } = props.comic;
+    const { title, volume, photo, } = props.comic;
     return (
         <Link to={`/comics/volumes/${title}`}>
             <li>

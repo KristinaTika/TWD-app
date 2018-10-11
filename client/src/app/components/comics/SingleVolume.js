@@ -28,7 +28,6 @@ class SingleVolume extends Component {
             let t = issue.title.split(" ");
             return <Link key={i} to={`/comics/volumes/${volume.title}/${issue.id}`}><li>Issue {`#${t[1]}`}</li></Link>
         });
-
     }
 
     render() {
