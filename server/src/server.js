@@ -28,13 +28,13 @@ app.get("/books/:id", (req, res) => {
 
 app.get("/characters", (req, res) => res.send(JSON.stringify(characters.characters)));
 
-app.get("/characters/:id", (req, res) => {
-    const id = req.params.id;
-    let parsedId = Number(id);
+app.get("/characters/:name", (req, res) => {
+    const name = req.params.name;
     const myCharacters = [];
     characters.characters[0].main_characters.map((c) => myCharacters.push(c));
-    characters.characters[1].supporting_cast.map(c => myCharacters.push(c))
-    let filteredCharacter = myCharacters.filter(char => char.id === parsedId);
+    characters.characters[1].supporting_cast.map(c => myCharacters.push(c)); 
+    let filteredCharacter = myCharacters.filter(char => char.name.toLowerCase().includes(name.toLowerCase()));
+    
     res.send(filteredCharacter[0]);
 });
 

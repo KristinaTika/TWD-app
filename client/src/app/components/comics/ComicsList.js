@@ -4,6 +4,7 @@ import { fetchComics, handleErrors } from '../../action-creators/actions';
 import ComicItem from './ComicItem';
 import Loader from '../../partials/Loader';
 import './ComicsList.css';
+import PropTypes from 'prop-types';
 
 class ComicsList extends Component {
     constructor(props) {
@@ -37,6 +38,12 @@ class ComicsList extends Component {
             </div>
         );
     }
+}
+ComicsList.propTypes = {
+    fetchComics: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    comics: PropTypes.object,
+    error: PropTypes.string
 }
 
 const mapStateToProps = (state) => {

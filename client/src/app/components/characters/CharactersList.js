@@ -4,6 +4,7 @@ import { fetchCharacters, handleErrors } from '../../action-creators/actions';
 import Character from './Character';
 import './CharacterList.css';
 import Loader from '../../partials/Loader';
+import PropTypes from 'prop-types';
 
 class CharactersList extends Component {
 
@@ -21,6 +22,12 @@ class CharactersList extends Component {
             </div>
         );
     }
+}
+CharactersList.propTypes = {
+    fetchCharacters: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    characters: PropTypes.arrayOf(PropTypes.object),
+    error: PropTypes.string
 }
 
 const mapStateToProps = (state) => {

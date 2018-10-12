@@ -1,20 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import './Character.css';
 
 const Character = (props) => {
   
-    const { id, name, photo } = props.character;
+    const { name, photo, status } = props.character;
     
     return (
-        <Link to={`/characters/${id}`}>
+        <Link to={`/characters/${name}`}>
             <li>
                 <div>
                     <img src={photo} alt={name} />
                 </div>
-                <p> {name} </p>
+                <p className={status.alive !== "" ? 'green' : status.dead !== "" ? 'red' : 'blue'}> {name} </p>
             </li>
         </Link>
     );
 };
+Character.propTypes = {
+    character: PropTypes.object.isRequired
+}
 
 export default Character;

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchSingleCharacter, handleErrors } from '../../action-creators/actions';
 import Loader from '../../partials/Loader';
 import './SingleCharacter.css';
+import PropTypes from 'prop-types';
 
 class SingleCharacter extends Component {
     constructor(props) {
@@ -14,8 +15,8 @@ class SingleCharacter extends Component {
     }
 
     componentDidMount() {
-        const { id } = this.props.match.params;
-        this.props.fetchSingleCharacter(id);
+        const { name } = this.props.match.params;
+        this.props.fetchSingleCharacter(name);
     }
 
     mapItems(items) {
@@ -113,6 +114,12 @@ class SingleCharacter extends Component {
         );
     }
 }
+// SingleCharacter.propTypes = {
+//     fetchSingleCharacter: PropTypes.func.isRequired,
+//     handleErrors: PropTypes.func.isRequired,
+//     character: PropTypes.object,
+//     error: PropTypes.string
+// }
 
 const mapStateToProp = (state) => {
     return {

@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { fetchBooks, handleErrors } from '../../action-creators/actions';
 import './BooksList.css';
 import BookLoader from '../../partials/BookLoader';
+import PropTypes from 'prop-types';
 
 class BooksList extends Component {
 
@@ -19,6 +20,12 @@ class BooksList extends Component {
             </div>
         );
     }
+}
+BooksList.propTypes = {
+    fetchBooks: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    books: PropTypes.arrayOf(PropTypes.object),
+    error:PropTypes.string
 }
 
 const mapStateToProps = (state) => {

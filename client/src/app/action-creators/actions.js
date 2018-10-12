@@ -11,7 +11,8 @@ export const FETCH_SINGLE_ISSUE = 'FETCH_SINGLE_ISSUE';
 export const FETCH_EPISODES = 'FETCH_EPISODES';
 export const FETCH_SINGLE_EPISODE = 'FETCH_SINGLE_EPISODE';
 export const HANDLE_ERRORS = 'HANDLE_ERRORS';
-export const HANDLE_SEASONS = 'HANDLE_SEASONS';
+export const FETCH_SEASONS = 'FETCH_SEASONS';
+export const FETCH_SINGLE_SEASON = 'FETCH_SINGLE_SEASON';
 export const FETCH_INFO = 'FETCH_INFO';
 
 export const handleErrors = (error) => {
@@ -145,7 +146,6 @@ export const fetchEpisodes = () => {
 }
 
 const handleSingleEpisode = (episode) => {
-    console.log(episode);
     return {
         type: FETCH_SINGLE_EPISODE,
         episode
@@ -177,7 +177,7 @@ export const fetchInfo = () => {
 
 const handleSeasons = (seasons) => {
     return {
-        type: HANDLE_SEASONS,
+        type: FETCH_SEASONS,
         seasons
     }
 }
@@ -187,5 +187,20 @@ export const fetchSeasons = () => {
         return axios.get(seasonsEndpoint)
             .then(res => dispatch(handleSeasons(res.data)))
             .catch(res => dispatch(handleErrors(res.message)));
+    }
+}
+
+const handleSeason = (season) => {
+    return {
+        type: FETCH_SINGLE_SEASON,
+        season
+    }
+}
+
+export const fetchSingleSeason = (id) => {
+    return dispatch => {
+        return axios.get(`${seasonsEndpoint}/${id}`)
+            .then(res => dispatch(handleSeason(res.data)))
+            .catch(err => dispatch(handleErrors(err.message)));
     }
 }

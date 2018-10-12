@@ -4,6 +4,7 @@ import { fetchSingleVolume, handleErrors } from '../../action-creators/actions';
 import './SingleVolume.css';
 import Loader from '../../partials/Loader';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class SingleVolume extends Component {
     constructor(props) {
@@ -64,6 +65,12 @@ class SingleVolume extends Component {
             </div>
         );
     }
+}
+SingleVolume.propTypes = {
+    fetchSingleVolume: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    volume: PropTypes.object,
+    error: PropTypes.string
 }
 
 const mapStateToProps = (state) => {

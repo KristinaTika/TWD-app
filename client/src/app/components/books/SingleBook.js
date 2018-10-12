@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchSingleBook, handleErrors } from '../../action-creators/actions';
 import './BooksList.css';
 import BookLoader from '../../partials/BookLoader';
+import PropTypes from 'prop-types';
 
 class SingleBook extends Component {
     constructor(props) {
@@ -63,6 +64,12 @@ class SingleBook extends Component {
             </div>
         );
     }
+}
+SingleBook.propTypes = {
+    fetchSingleBook: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    book: PropTypes.object,
+    error: PropTypes.string
 }
 
 const mapStateToProps = (state) => {

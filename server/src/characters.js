@@ -119,7 +119,7 @@ const characters = [
             },
             {
                 id: 6,
-                name: " Dale Horvath",
+                name: "Dale Horvath",
                 photo: "http://images5.fanpop.com/image/photos/29500000/Judge-Jury-Executioner-2x11-the-walking-dead-29592366-500-500.jpg",
                 actor: 'Jeffrey DeMunn',
                 gender: 'male',
@@ -143,7 +143,7 @@ const characters = [
             },
             {
                 id: 7,
-                name: "Glen Rhee",
+                name: "Glenn Rhee",
                 photo: "https://3.bp.blogspot.com/-CMbgR0H4MWk/V8Mat66kEUI/AAAAAAAAAGc/OCHqJrSzUbwS8Mh6qupTPOs8cRY8kClkgCLcB/s1600/Glenn%2BRhee.jpg",
                 actor: 'Steven Yeun',
                 gender: 'male',
@@ -259,7 +259,7 @@ const characters = [
             },
             {
                 id: 12,
-                name: "Maggie Rhee",
+                name: "Maggie Greene / Rhee",
                 photo: "https://vignette.wikia.nocookie.net/walkingdead/images/d/d4/Maggie_S9.jpg/revision/latest?cb=20180907040520&format=original",
                 actor: 'Lauren Cohan',
                 gender: 'female',
@@ -281,7 +281,7 @@ const characters = [
             },
             {
                 id: 13,
-                name: "Hershan Green",
+                name: "Hershel Greene",
                 photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/35/HershelCastPhoto4.jpg/revision/latest?cb=20130926174641&format=original",
                 actor: 'Scott Wilson',
                 gender: 'male',
@@ -305,7 +305,7 @@ const characters = [
             },
             {
                 id: 14,
-                name: "Beth Green",
+                name: "Beth Greene",
                 photo: "https://cdn.theatlantic.com/assets/media/img/mt/2014/10/b5c54483_1419_81ab_fcf4_979f275f708a_TWD_504_GP_0610_0054/square.jpg?1522684691",
                 actor: 'Emily Kinney',
                 gender: 'female',
@@ -887,6 +887,7 @@ const characters = [
                 hair: 'Brown',
                 age: 'Early to mid 20s',
                 occupation: ['Former member of the Saviors', 'Member of the Militia'],
+                family: ['Unknown'],
                 first_appearance: 'The Damned',
                 last_appearance: 'present',
                 status: {
@@ -1626,6 +1627,381 @@ const characters = [
                 },
                 ethnicity: "Caucasian - American",
                 description: ""
+            },
+            {
+                id: 71,
+                name: "Patricia",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/fd/Season_two_patricia_%282%29.png/revision/latest/scale-to-width-down/350?cb=20180323033024",
+                actor: 'Jane McNeill',
+                gender: 'Female',
+                hair: 'Dirty Blonde',
+                age: 'Mid to Late 40s',
+                occupation: ['Farm Hand (Pre and Post - Apocalypse)', 'Veterinary Assistant (Pre and Post - Apocalypse)', 'Group Nurse'],
+                family: ['Otis - former husband (deceased)'],
+                first_appearance: 'Bloodletting',
+                last_appearance: 'Beside the Dying Fire',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Beside the Dying Fire',
+                        cause_of_death: 'Devourder by walkers while trying to escape the farm.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/b/b1/Episode-13-patricia.jpg/revision/latest/scale-to-width-down/350?cb=20120326152206']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
+            {
+                id: 72,
+                name: "Otis",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/73/Season_two_otis.png/revision/latest/scale-to-width-down/350?cb=20180901162537",
+                actor: 'Pruitt Taylor Vince',
+                gender: 'Male',
+                hair: 'Brown / Gray',
+                age: 'Late 40s to Early 50s',
+                occupation: ['Farm Hand (Pre - Apocalypse)', 'Volunteer Emergency Medical Technician (Pre - Apocalypse)', 'Hunter'],
+                family: ['Patricia - former wife (deceased)'],
+                first_appearance: 'Bloodletting',
+                last_appearance: 'Cherokee Rose (archive footage)',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Save the Last One',
+                        cause_of_death: 'Shot in the leg by Shane Walsh and left to be devoured by walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/8/81/STLO_Otis_shot.png/revision/latest/scale-to-width-down/350?cb=20140921151538', 'https://vignette.wikia.nocookie.net/walkingdead/images/4/49/OtiSacrifice.png/revision/latest/scale-to-width-down/350?cb=20130718222938']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Although he only appeared in two episodes, Otis was shown to be a kind, generous, capable, brave and unselfish person. He was clearly loved very much by his wife Patricia and was a cherished friend to Hershel, Maggie, Jimmy and Beth who were all devastated by his death. Otis was extremely remorseful for his accidental shooting of Carl Grimes and made it a personal mission to help Shane retrieve much needed medical supplies to save the boy's life, although it tragically resulted in his violent death as a result of Shane."
+            },
+            {
+                id: 73,
+                name: "Jimmy",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/34/Season_two_jimmy.png/revision/latest/scale-to-width-down/350?cb=20140922201046",
+                actor: 'James Allen McCune',
+                gender: 'Male',
+                hair: 'Brown',
+                age: '17',
+                occupation: ['High School Student (Pre - Apocalypse)', 'Farm Hand (Pre - Apocalypse)'],
+                family: ['Beth Greene - former girlfriend (deceased)'],
+                first_appearance: 'Bloodletting',
+                last_appearance: 'Beside the Dying Fire',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Beside the Dying Fire',
+                        cause_of_death: 'Devoured by walkers.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/a/a4/JimmyNeckBitten.PNG/revision/latest/scale-to-width-down/350?cb=20140329150824']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "While having limited on-screen interactions in the series, Jimmy is shown to be a helpful, kind, and caring individual that has been shown or implied to be on positive terms with almost everyone on the Greene Family Farm and the Atlanta Camp survivors.\n\t\tHe has also been shown or viewed to be immature to some extent, notably by Hershel and Lori. One such example being the way he was holding his gun like a gangster during target practice. This trait was likely how he got along with Carl the way he did."
+            },
+            {
+                id: 74,
+                name: "Eric Raleigh",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/7b/Season_eight_eric_raleigh.png/revision/latest/scale-to-width-down/350?cb=20171101021119",
+                actor: 'Jordan Woods-Robinson',
+                gender: 'Male',
+                hair: 'Aurown',
+                age: 'Late 20s to early 30s',
+                occupation: ['NGO Worker (Pre - Apocalypse)', 'Former recruiter for the Alexandria Safe-Zone', 'Member of the Militia'],
+                family: ['Aaron - boyfriend'],
+                first_appearance: 'The Distance',
+                last_appearance: 'Monsters',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Monsters',
+                        cause_of_death: 'Shot in the abdomen by a Savior, bled out and reanimated due to untreated injuries.(alive)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/2/24/TD_Eric%27s_shot.png/revision/latest/scale-to-width-down/350?cb=20171106071851', 'https://vignette.wikia.nocookie.net/walkingdead/images/b/b6/Mtrs_Eric%27s_turned.png/revision/latest/scale-to-width-down/350?cb=20171106071954']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Eric Raleigh was a recruiter for the community of Alexandria, along with his boyfriend, Aaron and was responsible for bringing Rick Grimes and his group to Alexandria."
+            },
+            {
+                id: 75,
+                name: "Gavin",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/52/Season_eight_gavin.png/revision/latest/scale-to-width-down/350?cb=20171212023642",
+                actor: 'Jayson Warner Smith',
+                gender: 'Male',
+                hair: 'Brown',
+                age: 'Mid to late 40s',
+                occupation: ['Construction Foreman (Pre - Apocalypse)', 'Former lieutenant of the Saviors', 'Former Head of the Chemical Plant Outpost'],
+                family: ['Unknown'],
+                first_appearance: 'The Well',
+                last_appearance: 'Do Not Send Us Astray',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Honor',
+                        cause_of_death: 'Stabbed through the nape by Henry.(alive)\nStabbed in the head by Carol Peletier.(before reanimation)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/a/a2/Gavin%27sDeath-1.png/revision/latest/scale-to-width-down/350?cb=20180226094544', 'https://vignette.wikia.nocookie.net/walkingdead/images/9/94/Gavin%27sDeath-2.png/revision/latest/scale-to-width-down/350?cb=20180226094710' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "At some point after the outbreak, Gavin joined the Saviors. Likely due to loyalty or leadership capability, Negan appointed him as one of his lieutenants. At some point, Gavin was put in charge of overseeing the collection of weekly tributes from a community known as The Kingdom. Gavin ensures that the Saviors and the Kingdom conduct these supply exchanges secretly, as per a deal where the Kingdom is not directly subjugated, leaving the majority of its inhabitants oblivious to the Saviors' hegemonic influence."
+            },
+            {
+                id: 76,
+                name: "Gary",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/1/1f/Season_eight_gary.png/revision/latest?cb=20180319213314",
+                actor: 'Mike Seal',
+                gender: 'Male',
+                hair: 'Black',
+                age: 'Mid to late 30s',
+                occupation: ['Former lieutenant of the Saviors'],
+                family: ['Unknown'],
+                first_appearance: 'Service',
+                last_appearance: 'Worth',
+                status: {
+                    alive: "",
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Worth',
+                        cause_of_death: 'Shot by Arat, Norris, D.J and other fellow Saviors.(alive)\nHead bashed by Negan using his baseball bat, Lucille.(before reanimation)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/5/5f/2018-04-09.png/revision/latest/scale-to-width-down/350?cb=20180409094046', 'https://vignette.wikia.nocookie.net/walkingdead/images/e/e9/Wth_gary_dies.png/revision/latest/scale-to-width-down/350?cb=20180409095346']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "At some point in the apocalypse, Gary somehow came into contact with a group named 'The Saviors' which he subsequently joined as a lieutenant."
+            },
+            {
+                id: 77,
+                name: "Laura",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/8/8b/Season_eight_laura.png/revision/latest/scale-to-width-down/350?cb=20180410012226",
+                actor: 'Lindsley Register',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: 'Mid to Late 20s',
+                occupation: ['Former lieutenant of the Saviors', 'Gardener for the Sanctuary'],
+                family: ['Unknown'],
+                first_appearance: 'The Cell',
+                last_appearance: 'Present',
+                status: {
+                    alive: {
+                        status: 'Alive',
+                        lifespan: 'The Cell to present'
+                    },
+                    dead: ""
+                },
+                ethnicity: "Caucasian - American",
+                description: "Laura is shown to be an intelligent, cunning and initially cruel person who is a strong, determined survivor. She is described as having a wild and reckless side and enjoys having 'fun' as seen when she plays table hockey with Dwight. She is shown to have somewhat of a kind side as seen when she flirted with Spencer and offered to take him back to her compound presumably in order to get together with him, though it seems this was more a result of him actually scavenging supplies and fulfilling Negan's orders rather than genuine interest in him.\n\t\tLaura demonstrated extreme loyalty to the Saviors and seemed to fully agree with their sinister lifestyle and was shown to be cruel to the members of communities that her group extorted from as seen when she threatened Eugene and held Rick at gunpoint in order to prevent him from interfering with Aaron being brutally beaten and appeared to become angered at any disrespect towards her group. She was shown to not be bothered by the extreme violence that Negan and the Saviors engaged in as seen when she made Eugene watch Negan burn Emmett Carson alive after being framed by Dwight. She is likely a murderer as well as she surely would have killed Dwight after he turned on their group following the attack on Alexandria had reinforcements not arrived and she made it a personal mission to make in back to the Sanctuary despite being injured in order to expose him as the Militia's spy, further demonstrating her extreme loyalty to Negan and the Saviors.\n\t\tIn spite of her loyalty to Negan, she is not fundamentally a bad person who wishes for an extermination of the other communities. After suffering heavy losses, Laura leads the Saviors in surrendering to the Militia and fully embraces the peace with the other communities. When people from the other communities arrive at the Sanctuary, Laura, now working as a gardener, goes so far as to give Rosita Espinosa a friendly nod and shows no ill will towards her former enemies."
+            },
+            {
+                id: 78,
+                name: "Rachel",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/0/00/Season_eight_rachel.png/revision/latest?cb=20180308061347",
+                actor: 'Mimi Kirkland',
+                gender: 'Female',
+                hair: 'Brown',
+                age: '10 - 12',
+                occupation: ['Member of the Militia'],
+                family: ['Unknown'],
+                first_appearance: 'Swear',
+                last_appearance: 'Present',
+                status: {
+                    alive: {
+                        status: 'Alive',
+                        lifespan: 'Swear to present'
+                    },
+                    dead: ""
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
+            {
+                id: 79,
+                name: "Tamiel",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/8/82/Season_eight_tamiel.png/revision/latest/scale-to-width-down/350?cb=20171209224227",
+                actor: 'Sabrina Gennarino',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: 'Mid to late 40s',
+                occupation: ['Lieutenant of the Scavengers'],
+                family: ['Unknown'],
+                first_appearance: 'Hearts Still Beating',
+                last_appearance: 'Still Gotta Mean Something',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'The Lost and the Plunderers',
+                        cause_of_death: 'Shot in the chest by Simon.(alive)\nCrushed in a compactor by Anne.(zombified)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/d/d8/TamielDeath-1.png/revision/latest/scale-to-width-down/350?cb=20180305112917', 'https://vignette.wikia.nocookie.net/walkingdead/images/6/6d/Tamiel%27s_Death_2.png/revision/latest/scale-to-width-down/350?cb=20180305150518' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "At some point after the outbreak, Tamiel became part of the Scavengers led by Jadis, and became a senior lieutenant."
+            },
+            {
+                id: 80,
+                name: "Brion",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/25/Season_seven_brion.png/revision/latest?cb=20170225222650",
+                actor: 'Thomas Francis Murphy',
+                gender: 'Male',
+                hair: 'Light Brown',
+                age: 'Late 50s to early 60s',
+                occupation: ['Lieutenant of the Scavengers'],
+                family: ['Unknown'],
+                first_appearance: 'New Best Friends',
+                last_appearance: 'The Lost and the Plunderers',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'The Lost and the Plunderers',
+                        cause_of_death: 'Shot in the chest by Simon.(alive)\nCrushed in a compactor by Anne.(zombified)',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/fa/BrionDeath-1.png/revision/latest/scale-to-width-down/350?cb=20180305112706', 'https://vignette.wikia.nocookie.net/walkingdead/images/e/e2/BrionDeath-2.png/revision/latest/scale-to-width-down/350?cb=20180305103616' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "At some point after the outbreak, Brion became part of the Scavengers led by Jadis, and became a senior lieutenant."
+            },
+            {
+                id: 81,
+                name: "Farron",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/c/c6/Season_seven_farron.png/revision/latest/scale-to-width-down/350?cb=20170404020733",
+                actor: 'Anja Akstin  ',
+                gender: 'Female',
+                hair: 'Blonde',
+                age: 'Mid 20s',
+                occupation: ['Unknown'],
+                family: ['Unknown'],
+                first_appearance: 'The First Day of the Rest of Your Life',
+                last_appearance: 'The First Day of the Rest of Your Life',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'The First Day of the Rest of Your Life',
+                        cause_of_death: 'Pushed off a high balcony by Michonne.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/2/2c/Farron%27s_death_%28but_she_was_heard_screaming%29.png/revision/latest/scale-to-width-down/350?cb=20170403093637', 'https://vignette.wikia.nocookie.net/walkingdead/images/3/3e/Farron%27s_dead_body.png/revision/latest/scale-to-width-down/350?cb=20170403093729' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: ""
+            },
+            {
+                id: 82,
+                name: "Georgie",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/8/85/Season_eight_georgie.png/revision/latest/scale-to-width-down/350?cb=20180320154634",
+                actor: 'Jayne Atkinson  ',
+                gender: 'Female',
+                hair: 'Platinum Blonde',
+                age: 'Mid to late 5s',
+                occupation: ['Professor (Pre - Apocalypse)', 'Leader of an unnamed group'],
+                family: ['Unknown'],
+                first_appearance: 'The Key',
+                last_appearance: 'The Key',
+                status: {
+                    alive: '',
+                    dead: ''
+                },
+                ethnicity: "Caucasian - American",
+                description: "Following the apocalypse, Georgie became the leader of a group of survivors including Hilda and Midge. Georgie's group would visit various survivor communities and offer to exchange crates of food or phonographic records of music for Georgie's knowledge on how to make a better future. However, over time Georgie and her group stopped encountering many new survivor communities and most of the ones they did encounter were not good people. By the time she encounters the Hilltop, Georgie hasn't seen a community like it in 'a very long time'."
+            },
+            {
+                id: 83,
+                name: "Pete Anderson",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/8/8f/Season_five_pete.png/revision/latest?cb=20150316182133",
+                actor: 'Corey Brill',
+                gender: 'Male',
+                hair: 'Blond',
+                age: 'Mid 30s',
+                occupation: ['Surgeon (Pre - Apocalypse)', 'Doctor for the Alexandria Safe-Zone'],
+                family: ['Jessie Anderson - former wife (deceased)', 'Ron Anderson - sone (deceased)', 'Same Anderson - sone (deceased)'],
+                first_appearance: 'Remember',
+                last_appearance: 'First Time Again (flashback)',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Conquer',
+                        cause_of_death: 'Shot in the head by Rick Grimes.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/4/41/516_Pete_Death.png/revision/latest/scale-to-width-down/350?cb=20150330040039' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Although initially appearing as a somewhat kind and welcoming person, Pete is later revealed to be a violent, abusive and alcoholic man. A strong desire for dominance may be the reason why Pete chooses to abuse his wife and children, regardless of the physiological damage it is causing them. Pete appears to show no remorse for his abusive actions at all.\n\t\tPete is shown to despise anyone who tries to get in his way of dominating his wife and turning her against him as shown when Rick Grimes convinces Jessie to stand up to him, he engages Rick in a fight. After once again seeing Rick simply speaking to Jessie, Pete flies into a violent, alcoholic rage and sets out to kill Rick once and for all, which ends up with him slitting Reg Monroe's throat and causing his own demise in the process, all the while refusing to accept that he had caused this situation.\n\t\tDespite his abuse, Pete's sons Ron and Sam do seem to care somewhat for their father as they both show signs of grief following his death and Ron shows bitterness towards Rick for killing his father. Ron also becomes extremely angry when Rick's son Carl tells him that 'your dad was an asshole.'"
+            },
+            {
+                id: 84,
+                name: "Olivia",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/d/db/Season_seven_olivia.png/revision/latest/scale-to-width-down/350?cb=20161212221819",
+                actor: 'Ann Mahoney',
+                gender: 'Female',
+                hair: 'Black',
+                age: 'Late 30s to early 40s',
+                occupation: ['Coffee shop employee (Pre - Apocalypse)', 'Inventory Manager for the Alexandria Safe-Zone'],
+                family: ['Unknown'],
+                first_appearance: 'Remember',
+                last_appearance: 'Hearts Still Beating',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Hearts Still Beating',
+                        cause_of_death: 'Shot in the face by Arat at the order of Negan.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/f4/Oliviadeath2.png/revision/latest/scale-to-width-down/350?cb=20161212120519', 'https://vignette.wikia.nocookie.net/walkingdead/images/d/d9/OliviaDeath.JPG/revision/latest/scale-to-width-down/350?cb=20161212113122' ]
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "After Rick Grimes and his group arrive in Alexandria, Olivia collects everyone's weapons and stores them at the armory. She is also seen watching the confrontation between Glenn Rhee and Aiden Monroe."
+            },
+            {
+                id: 85,
+                name: "Reg Monroe",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/b/b4/Season_five_reg_monroe.png/revision/latest/scale-to-width-down/331?cb=20150323213612",
+                actor: 'Steve Coutler',
+                gender: 'Male',
+                hair: 'Gray',
+                age: 'Late 50s to early 60s',
+                occupation: ['Professor of Architecture (Pre - Apocalypse)'],
+                family: ['Deanna Monroe - former wife (deceased)', 'Aiden Monroe - son (deceased)', 'Spenser Monroe - sone (deceased)'],
+                first_appearance: 'Forget',
+                last_appearance: 'First Time Again (flashback)',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Conquer',
+                        cause_of_death: 'Throat accidentall slice open by Pete Anderson and quickly dies of blood loss. (alive)\nPut down by Abraham Ford',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/fd/516_Reg_Death.png/revision/latest/scale-to-width-down/350?cb=20150330040146']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "Reg and his family tried to return to Ohio as the outbreak started, but was directed to Alexandria by the U.S. Army. After the Army failed to show up, Reg and his sons started to build a wall around the community using materials from a nearby shopping mall under construction. When other people joined the community, they had enough manpower to finish the construction of the walls."
+            },
+            {
+                id: 86,
+                name: "Richard",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/0/04/Season_seven_richard.png/revision/latest/scale-to-width-down/350?cb=20170315014517",
+                actor: 'Karl Makinen',
+                gender: 'Male',
+                hair: 'Dark Brown',
+                age: 'Mid 40s',
+                occupation: ['Kingdom soldier'],
+                family: ['Kathy - daughter (deceased)'],
+                first_appearance: 'The Well',
+                last_appearance: 'Bury Me Here',
+                status: {
+                    alive: '',
+                    dead: {
+                        status: "Dead",
+                        death_episode: 'Bury Me Here',
+                        cause_of_death: 'Strangled to death and later stabbed in the head by Morgan Jones.',
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/c/cf/Richardchoked.jpg/revision/latest/scale-to-width-down/350?cb=20170313022923', 'https://vignette.wikia.nocookie.net/walkingdead/images/8/82/Morgan_Stabbed_Richard.png/revision/latest?cb=20170729123914']
+                    }
+                },
+                ethnicity: "Caucasian - American",
+                description: "After the onset of the outbreak, Richard and his family found refuge inside a large tented community, however several problems arose within the community, Richard, however, never acted upon his concerns regarding their safety believing that it wasn’t his responsibility. At some point, later, an unknown conflict ensued which resulted in a fire which engulfed the community and his wife was caught and burned to death leaving Richard to defend his young daughtern\t\tAfter 3 days of travelling with no food and no sleep, Richard and Katy found themselves in a precarious dilemma which resulted in Katy being devoured by walkers leaving Richard on his own. [1] Sometime after this event, Richard later encountered Ezekiel with whom he came to develop a fierce loyalty towards and subsequently settled into his community named The Kingdom.\n\t\tUpon assimilating into community, Richard managed to regain a sense of purpose and thus committed himself in ensuring the safety of his fellow residents and in the process, became one of Ezekiel’s trusted allies alongside Jerry, David, Dianne and significantly later Benjamin.[3] Roughly during this period, Richard managed to befriend Paul Rovia, a scout for a nearby community named the Hilltop Colony upon where the two came to develop a trusting partnership, and thus a trading system was established between the two communities, despite this however he gained a lesser opinion on the community leader Gregory for his cowardice.\n\t\tRichard was present at the time of the arrival of a notorious group of survivors named the Saviors who operated on behalf of Negan. Upon meeting, the Saviors demanded a portion of supplies in exchange for leaving the community unscathed, to which Ezekiel complied under the condition that the Saviour’s would never step foot inside The Kingdom. Throughout the following months Richard aided his group in gathering supplies in order to compensate towards the Saviors demands and thus he took part in several conducted weekly trades between the two groups, which he alongside Ezekiel, and several others kept secretly hidden from the rest of the community."
             },
         ]
     }

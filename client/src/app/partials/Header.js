@@ -7,6 +7,7 @@ const Header = (props) => {
         <header>
             <h2> TWD App </h2>
             <nav>
+                <Link to="/home"> Home </Link>
                 <Link to="/books"> Books </Link>
                 <Link to="/characters"> Characters </Link>
                 <Link to="/comics"> Comics </Link>

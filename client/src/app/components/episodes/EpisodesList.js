@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { fetchEpisodes, handleErrors } from '../../action-creators/actions';
 import Loader from '../../partials/Loader';
 import Episode from './Episode';
+import PropTypes from 'prop-types';
+import './EpisodesList.css';
 
 class EpisodesList extends Component {
 
@@ -20,6 +22,12 @@ class EpisodesList extends Component {
             </div>
         );
     }
+}
+EpisodesList.propTypes = {
+    fetchEpisodes: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    episodes: PropTypes.arrayOf(PropTypes.object),
+    error: PropTypes.string
 }
 
 const mapStateToProps = (state) => {

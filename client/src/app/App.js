@@ -24,7 +24,7 @@ const App = (props) => {
       <Switch>
         <Route path="/books/:id" component={SingleBook} />
         <Route path="/books" component={BooksList} />
-        <Route path="/characters/:id" component={SingleCharacter} />
+        <Route path="/characters/:name" component={SingleCharacter} />
         <Route path="/characters" component={CharactersList} />
         <Route path="/comics/volumes/:name/:id" component={Issue} />
         <Route path="/comics/volumes/:name" component={SingleVolume} />

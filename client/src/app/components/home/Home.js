@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchInfo } from '../../action-creators/actions';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class Home extends Component {
     constructor(props) {
@@ -126,6 +127,10 @@ class Home extends Component {
             </div>
         );
     }
+}
+Home.propTypes = {
+    fetchInfo: PropTypes.func.isRequired,
+    info: PropTypes.object
 }
 
 const mapStateToProps = state => {

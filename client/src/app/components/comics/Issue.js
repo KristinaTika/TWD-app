@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchSingleIssue, handleErrors } from '../../action-creators/actions';
 import './Issue.css';
 import Loader from '../../partials/Loader';
+import PropTypes from 'prop-types';
 
 class Issue extends Component {
 
@@ -48,6 +49,12 @@ class Issue extends Component {
             </div>
         );
     }
+}
+Issue.propTypes = {
+    fetchSingleIssue: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    issue: PropTypes.object,
+    error: PropTypes.string
 }
 
 const mapStateToProps = (state) => {

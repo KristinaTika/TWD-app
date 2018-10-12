@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ComicItem.css';
+import PropTypes from 'prop-types';
 
 const ComicItem = (props) => {
 
@@ -16,5 +17,8 @@ const ComicItem = (props) => {
         </Link>
     );
 };
+ComicItem.propTypes = {
+    comic: PropTypes.object.isRequired
+}
 
 export default ComicItem;
