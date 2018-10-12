@@ -4,7 +4,7 @@ const characters = [
             {
                 id: 1,
                 name: "Rick Grimes",
-                photo: "https://thebrotherhoodofevilgeeks.files.wordpress.com/2015/09/uhvmsgpr.jpeg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/73/RickS9.jpg/revision/latest/scale-to-width-down/640?cb=20180907040437",
                 actor: 'Andrew Lincoln',
                 gender: 'Male',
                 hair: 'Dark brown (Graying)',
@@ -26,7 +26,7 @@ const characters = [
             {
                 id: 2,
                 name: "Shane Walsh",
-                photo: "http://pm1.narvii.com/6672/90439426b75ae274d6bc9ff67eb9d728335bd5d7_00.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/54/Shane_9.png/revision/latest?cb=20101209134016&format=original",
                 actor: 'Jon Bernthal',
                 gender: 'Male',
                 hair: 'Black',
@@ -98,7 +98,7 @@ const characters = [
             {
                 id: 5,
                 name: "Morgan Jones",
-                photo: "https://img1.telestar.fr/var/telestar/storage/images/3/0/5/6/3056852/lennie-james-morgan-jones_square500x500.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/e/ec/Morgan-S5.jpg/revision/latest?cb=20141013103451&format=original",
                 actor: 'Lennia James',
                 gender: 'male',
                 hair: 'black',
@@ -168,7 +168,7 @@ const characters = [
             {
                 id: 8,
                 name: "Andrea",
-                photo: "https://i.pinimg.com/originals/f0/ef/34/f0ef347fcc63f89ba1537123fcb2c291.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/3f/Andreaportrait.jpg/revision/latest?cb=20120914133856&format=original",
                 actor: 'Laurie Holden',
                 gender: 'female',
                 hair: 'blonde',
@@ -192,7 +192,7 @@ const characters = [
             {
                 id: 9,
                 name: "Merle Dixon",
-                photo: "https://i.pinimg.com/originals/2a/95/98/2a95984c78afa661775a7d67ca2b1b11.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/29/Merleportrait.jpg/revision/latest?cb=20120914134158&format=original",
                 actor: 'Michael Rooker',
                 gender: 'male',
                 hair: 'brown(greying)',
@@ -216,7 +216,7 @@ const characters = [
             {
                 id: 10,
                 name: "Carol Peletier",
-                photo: "http://www.sparklyprettybriiiight.com/wp-content/uploads/2014/11/The-Walking-Dead-Consumed-MAIN.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/4/40/22310573_1868202143494082_6179600102262899986_n.jpg/revision/latest/scale-to-width-down/342?cb=20171007175444",
                 actor: 'Melissa McBride',
                 gender: 'female',
                 hair: 'grey',
@@ -226,8 +226,10 @@ const characters = [
                 first_appearance: 'Tell it to the Frogs',
                 last_appearance: 'season 9',
                 status: {
-                    alive: '',
-                    lifespan: "'Tell it to the Frogs' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Tell it to the Frogs' to present"
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasion - American',
@@ -246,8 +248,10 @@ const characters = [
                 first_appearance: 'Tell it to the Frogs',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Tell it to the Frogs' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Tell it to the Frogs' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasion - American',
@@ -256,7 +260,7 @@ const characters = [
             {
                 id: 12,
                 name: "Maggie Rhee",
-                photo: "http://www.clevver.com/wp-content/uploads/2016/01/The-Walking-Dead-Lauren-Cohan.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/d/d4/Maggie_S9.jpg/revision/latest?cb=20180907040520&format=original",
                 actor: 'Lauren Cohan',
                 gender: 'female',
                 hair: 'dark brown',
@@ -266,8 +270,10 @@ const characters = [
                 first_appearance: 'Blodletting',
                 last_appearance: 'Who Are You Now',
                 status: {
-                    alive: '',
-                    lifespan: "'Bllodletting' to 'Who Are You Now'",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Bllodletting' to 'Who Are You Now'",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Irish - American',
@@ -276,7 +282,7 @@ const characters = [
             {
                 id: 13,
                 name: "Hershan Green",
-                photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt4ingVeEH2joK_0KphFetAUSZhgCV_wVO682Gp31TDl7Fh9t3",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/35/HershelCastPhoto4.jpg/revision/latest?cb=20130926174641&format=original",
                 actor: 'Scott Wilson',
                 gender: 'male',
                 hair: 'white',
@@ -324,7 +330,7 @@ const characters = [
             {
                 id: 15,
                 name: "Michonne",
-                photo: "https://scontent-iad3-1.cdninstagram.com/vp/5da65d466b5e4646f4c510c41262ce2e/5BFBFD94/t51.2885-15/e35/c0.50.500.500/37594001_219072195446406_1822120200082817024_n.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/9a/MichonneS9.jpg/revision/latest?cb=20180907040532&format=original",
                 actor: 'Danai Gurrira',
                 gender: 'female',
                 hair: 'brown',
@@ -334,8 +340,10 @@ const characters = [
                 first_appearance: 'Beside the Dying Fire',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Beside the Dying Fire' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Beside the Dying Fire' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'African - American',
@@ -441,7 +449,7 @@ const characters = [
             {
                 id: 20,
                 name: "Tara Chambler",
-                photo: "https://i.pinimg.com/originals/a6/12/b1/a612b183c329e54231e1edd830cb2646.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/c/c6/811_Tara_Chambler.jpg/revision/latest/scale-to-width-down/800?cb=20180306041656",
                 actor: 'Alanna Masterson',
                 gender: 'female',
                 hair: 'dark brown',
@@ -451,8 +459,10 @@ const characters = [
                 first_appearance: 'Live Bait',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Live Bait' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Live Bait' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -485,7 +495,7 @@ const characters = [
             {
                 id: 22,
                 name: "Eugine Porter",
-                photo: "https://i.pinimg.com/originals/43/ee/bc/43eebc2b574b3d1921f0fc1646e5c529.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/9d/TWDS84.jpg/revision/latest/scale-to-width-down/450?cb=20170926210856",
                 actor: 'Josh McDermitt',
                 gender: 'male',
                 hair: 'dark brown',
@@ -495,8 +505,10 @@ const characters = [
                 first_appearance: 'Inmates',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Inmates' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Inmates' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -515,8 +527,10 @@ const characters = [
                 first_appearance: 'Inmates',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Inmates' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Inmates' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Hispanic - American',
@@ -559,8 +573,10 @@ const characters = [
                 first_appearance: 'Strangers',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Strangers' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Strangers' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'African - American',
@@ -579,8 +595,10 @@ const characters = [
                 first_appearance: 'Them',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Them' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Them' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -637,7 +655,7 @@ const characters = [
             {
                 id: 29,
                 name: "Enid",
-                photo: "https://i1.sndcdn.com/artworks-000109318786-d8gqis-t500x500.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/55/EnidS9.jpg/revision/latest/scale-to-width-down/640?cb=20180907041326",
                 actor: 'Katelyn Nacon',
                 gender: 'female',
                 hair: 'brown',
@@ -647,8 +665,10 @@ const characters = [
                 first_appearance: 'Remember',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Remember' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Remember' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -681,7 +701,7 @@ const characters = [
             {
                 id: 31,
                 name: "Dwight",
-                photo: "http://nerdreactor.com/wp-content/uploads/2016/11/dwight-daryl-500x500_c.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/7e/22221529_1868202156827414_7259248589061159331_n.jpg/revision/latest?cb=20171007175950&format=original",
                 actor: 'Austin Amelio',
                 gender: 'male',
                 hair: 'blond',
@@ -691,8 +711,10 @@ const characters = [
                 first_appearance: 'Always Accountable',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'Always Accountable' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'Always Accountable' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -701,7 +723,7 @@ const characters = [
             {
                 id: 32,
                 name: "Paul 'Jesus' Rovia",
-                photo: "https://pbs.twimg.com/media/Cl0sNX0XIAAjaY_.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/4/4c/22281958_1868202016827428_6245066108732889572_n.jpg/revision/latest?cb=20171007181109&format=original",
                 actor: 'Tom Payne',
                 gender: 'male',
                 hair: 'light brown',
@@ -711,8 +733,10 @@ const characters = [
                 first_appearance: 'The Next World',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'The Next World' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'The Next World' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -779,8 +803,10 @@ const characters = [
                 first_appearance: 'Last Day on Earth',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'The Last Day on Earth' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'The Last Day on Earth' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -799,8 +825,10 @@ const characters = [
                 first_appearance: 'The Well',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'The Well' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'The Well' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'African - American',
@@ -809,7 +837,7 @@ const characters = [
             {
                 id: 37,
                 name: "Jadis / Anne",
-                photo: "https://img1.telestar.fr/var/telestar/storage/images/3/0/8/9/3089566/jadis-attire-les-zombies-dans-piege-terrible-lors-episode-saison-the-walking-dead_square500x500.jpg",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/d/d8/22196503_1868202323494064_5548716762526327474_n.jpg/revision/latest?cb=20171007183755&format=original",
                 actor: 'Pollyanna McIntosh',
                 gender: 'female',
                 hair: 'brown/blonde',
@@ -819,8 +847,10 @@ const characters = [
                 first_appearance: 'New Best Friends',
                 last_appearance: 'present',
                 status: {
-                    alive: '',
-                    lifespan: "'New Best Friends' to present",
+                    alive: {
+                        status: 'Alive',
+                        lifespan: "'New Best Friends' to present",
+                    },
                     dead: ''
                 },
                 ethnicity: 'Caucasian - American',
@@ -829,7 +859,7 @@ const characters = [
             {
                 id: 38,
                 name: "Siddiq",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/7a/813_Siddiq_and_Kevin.png/revision/latest/scale-to-width-down/640?cb=20180320190938",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/e/e7/SiddiqS9.jpg/revision/latest?cb=20180916003718&format=original",
                 actor: 'Avi Nash',
                 gender: 'male',
                 hair: 'dark brown',
@@ -861,8 +891,8 @@ const characters = [
                 last_appearance: 'present',
                 status: {
                     alive: {
-                    status:  'Alive',
-                    lifespan: "'The Damned' to present",
+                        status: 'Alive',
+                        lifespan: "'The Damned' to present",
                     },
                     dead: ''
                 },
@@ -876,7 +906,7 @@ const characters = [
             {
                 id: 40,
                 name: "Amy",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/23/Amy.1.jpg/revision/latest?cb=20120817232302",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/23/Amy.1.jpg/revision/latest?cb=20120817232302&format=original",
                 actor: 'Emma Bell',
                 gender: 'Female',
                 hair: 'Blonde',
@@ -963,7 +993,7 @@ const characters = [
                         status: "Dead",
                         death_episode: 'Home',
                         cause_of_death: 'Shot in the hed by The Governor.',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/f4/AxelTVDeath.png/revision/latest/scale-to-width-down/350?cb=20130218030515', 'https://vignette.wikia.nocookie.net/walkingdead/images/0/07/640px-Axel_Muerto_3x10.jpg/revision/latest/scale-to-width-down/350?cb=20130225202153'] 
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/f/f4/AxelTVDeath.png/revision/latest/scale-to-width-down/350?cb=20130218030515', 'https://vignette.wikia.nocookie.net/walkingdead/images/0/07/640px-Axel_Muerto_3x10.jpg/revision/latest/scale-to-width-down/350?cb=20130225202153']
                     }
                 },
                 ethnicity: "Caucasian - American",
@@ -972,7 +1002,7 @@ const characters = [
             {
                 id: 44,
                 name: "Karen",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/7/75/IMG_20140912_001908.jpg/revision/latest?cb=20140911232416",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/0/06/Karen_4x02.jpg/revision/latest?cb=20131019143605&format=original",
                 actor: 'Melissa Ponzio',
                 gender: 'Female',
                 hair: 'Dark Brown',
@@ -996,7 +1026,7 @@ const characters = [
             {
                 id: 45,
                 name: "Caesar Martinez",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/99/Twds4gn-9.jpg/revision/latest?cb=20131121224000",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/3/38/The-walking-dead-dead-weight-4.jpg/revision/latest?cb=20131125174141&format=original",
                 actor: 'Jose Pablo Cantillo',
                 gender: 'Male',
                 hair: 'Black',
@@ -1068,7 +1098,7 @@ const characters = [
             {
                 id: 48,
                 name: "Mika Samuels",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/f5/Mika_Infected_5.JPG/revision/latest/scale-to-width-down/259?cb=20131228022034",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/9a/600px-TWDS4E14_02.jpg/revision/latest?cb=20140319202054&format=original",
                 actor: 'Kyla Kenedy',
                 gender: 'Female',
                 hair: 'Blonde',
@@ -1092,7 +1122,7 @@ const characters = [
             {
                 id: 49,
                 name: "Lilly Chambler",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/8/87/Tara%2CMeghan%26Lilly407.jpg/revision/latest/scale-to-width-down/631?cb=20131125040417",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/90/Too_Far_Gone_24.png/revision/latest?cb=20140423022306&format=original",
                 actor: 'Audrey Marie Anderson',
                 gender: 'Female',
                 hair: 'Brown',
@@ -1116,7 +1146,7 @@ const characters = [
             {
                 id: 50,
                 name: "Joe",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/f/f3/Joe_%28Alone%29.PNG/revision/latest?cb=20140310054847",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/a/ac/Red-machete-joe-kober-800x600.jpg/revision/latest?cb=20180812232140&format=original",
                 actor: 'Jeff Kober',
                 gender: 'Male',
                 hair: 'Gray',
@@ -1140,7 +1170,7 @@ const characters = [
             {
                 id: 51,
                 name: "Mary",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/0/0d/IMG_20141209_165852.jpg/revision/latest?cb=20141209170051",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/1/10/Feat-Caption416.png/revision/latest?cb=20140328025552&format=original",
                 actor: 'Denise Crosby',
                 gender: 'Female',
                 hair: 'Auburn',
@@ -1207,7 +1237,7 @@ const characters = [
             {
                 id: 54,
                 name: "Noah",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/5/57/504_Noah_Greenhouse.png/revision/latest/scale-to-width-down/368?cb=20141103042405",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/2/27/S5E4_Noah_11.jpg/revision/latest?cb=20141104015020&format=original",
                 actor: 'Tyler James Williams',
                 gender: 'Male',
                 hair: 'Black',
@@ -1246,7 +1276,7 @@ const characters = [
                         status: "Dead",
                         death_episode: 'No Way Out',
                         cause_of_death: 'Sam - Devoured by walkers. / Ron - Stabbed through the heart by Michonne to protect Rick from being shot, then immediately devoured by walkers.',
-                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/7/75/Samdeath.jpg/revision/latest/scale-to-width-down/350?cb=20170123165902', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/cd/Ron_death_and_gunshot.png/revision/latest/scale-to-width-down/350?cb=20160215205953', 'https://vignette.wikia.nocookie.net/walkingdead/images/5/5c/Ron_being_devoured.png/revision/latest/scale-to-width-down/350?cb=20160215210020' ]
+                        photo: ['https://vignette.wikia.nocookie.net/walkingdead/images/7/75/Samdeath.jpg/revision/latest/scale-to-width-down/350?cb=20170123165902', 'https://vignette.wikia.nocookie.net/walkingdead/images/c/cd/Ron_death_and_gunshot.png/revision/latest/scale-to-width-down/350?cb=20160215205953', 'https://vignette.wikia.nocookie.net/walkingdead/images/5/5c/Ron_being_devoured.png/revision/latest/scale-to-width-down/350?cb=20160215210020']
                     }
                 },
                 ethnicity: "Caucasian - American",
@@ -1303,7 +1333,7 @@ const characters = [
             {
                 id: 58,
                 name: "Dr Denise Cloyd",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/c/c8/AMC_605_Tara_Denise_Porch.png/revision/latest/scale-to-width-down/640?cb=20151113145004",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/4/4b/Denise_605.jpg/revision/latest?cb=20160926225335&format=original",
                 actor: 'Merritt Wever',
                 gender: 'Female',
                 hair: 'Dirty Blonde',
@@ -1352,7 +1382,7 @@ const characters = [
                 hair: 'Red',
                 age: 'Mid to late 30s',
                 occupation: ['Secretary (Pre - Apocalypse)', 'Former Lieutenant of the Saviors'],
-                family: ['Donnie - lover (deceased)', ],
+                family: ['Donnie - lover (deceased)',],
                 first_appearance: 'Not Tomorrow Yet (voice only), The Same Boat',
                 last_appearance: 'The Same Boat',
                 status: {
@@ -1370,7 +1400,7 @@ const characters = [
             {
                 id: 61,
                 name: "Jared",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/d/d2/JaredNBFCrop.png/revision/latest?cb=20170224011642",
+                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/94/Season_seven_jared.png/revision/latest?cb=20170314000315&format=original",
                 actor: 'Joshua Mikel',
                 gender: 'Male',
                 hair: 'Brown',
@@ -1452,7 +1482,7 @@ const characters = [
                 first_appearance: 'The Well',
                 last_appearance: 'Present',
                 status: {
-                    alive:  {
+                    alive: {
                         status: "Alive",
                         lifespan: "The Well to present"
                     },
@@ -1474,10 +1504,10 @@ const characters = [
                 first_appearance: 'The Well',
                 last_appearance: 'Present',
                 status: {
-                    alive:{
+                    alive: {
                         status: "Alive",
                         lifespan: "The Well to present"
-                    }, 
+                    },
                     dead: ""
                 },
                 ethnicity: "Caucasian - American",
@@ -1486,7 +1516,7 @@ const characters = [
             {
                 id: 66,
                 name: "Henry",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/9/97/Henry_%28Bury_Me_Here%29.png/revision/latest?cb=20170314153626",
+                photo: "https://fsmedia.imgix.net/a9/5a/59/4a/45a7/4b35/a994/c9bc15b07371/macsen-lintz-plays-henry-who-may-be-more-dangerous-than-he-looks.jpeg?dpr=2&auto=format%2Ccompress&w=375",
                 actor: 'Marcsen Lintz',
                 gender: 'Male',
                 hair: 'Blond',
