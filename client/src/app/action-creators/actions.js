@@ -1,13 +1,15 @@
 import axios from 'axios';
-import { charactersEndpoint, seasonsEndpoint, comicsEndpoint, booksEndpoint, infoEndpoint } from '../../shared/constants';
+import { charactersEndpoint, seasonsEndpoint, comicsEndpoint, booksEndpoint, infoEndpoint, episodesEndpoint } from '../../shared/constants';
 
 export const FETCH_BOOKS = 'FETCH_BOOKS';
 export const FETCH_SINGLE_BOOK = 'FETCH_SINGLE_BOOK';
 export const FETCH_CHARACTERS = "FETCH_CHARACTERS";
+export const FETCH_SINGLE_CHARACTER = "FETCH_SINGLE_CHARACTER";
 export const FETCH_COMICS = "FETCH_COMICS";
 export const FETCH_SINGLE_VOLUME = 'FETCH_SINGLE_VOLUME';
 export const FETCH_SINGLE_ISSUE = 'FETCH_SINGLE_ISSUE';
-export const FETCH_SINGLE_CHARACTER = "FETCH_SINGLE_CHARACTER";
+export const FETCH_EPISODES = 'FETCH_EPISODES';
+export const FETCH_SINGLE_EPISODE = 'FETCH_SINGLE_EPISODE';
 export const HANDLE_ERRORS = 'HANDLE_ERRORS';
 export const HANDLE_SEASONS = 'HANDLE_SEASONS';
 export const FETCH_INFO = 'FETCH_INFO';
@@ -98,7 +100,6 @@ export const fetchComics = () => {
 }
 
 const handleSingleVolume = (volume) => {
-    console.log(volume);
     return {
         type: FETCH_SINGLE_VOLUME,
         volume
@@ -114,7 +115,6 @@ export const fetchSingleVolume = (title) => {
 }
 
 const handleSingleIssue = (issue) => {
-    console.log(issue);
     return {
         type: FETCH_SINGLE_ISSUE,
         issue
@@ -125,6 +125,37 @@ export const fetchSingleIssue = (title, id) => {
     return dispatch => {
         return axios.get(`${comicsEndpoint}/volumes/${title}/${id}`)
             .then(res => dispatch(handleSingleIssue(res.data)))
+            .catch(err => dispatch(handleErrors(err.message)));
+    }
+}
+
+const handleEpisodes = (episodes) => {
+    return {
+        type: FETCH_EPISODES,
+        episodes
+    }
+}
+
+export const fetchEpisodes = () => {
+    return dispatch => {
+        return axios.get(episodesEndpoint)
+            .then( res => dispatch(handleEpisodes(res.data)))
+            .catch(err => dispatch(handleErrors(err.message)));
+    }
+}
+
+const handleSingleEpisode = (episode) => {
+    console.log(episode);
+    return {
+        type: FETCH_SINGLE_EPISODE,
+        episode
+    }
+}
+
+export const fetchSingleEpisode = (id) => {
+    return dispatch => {
+        return axios.get(`${episodesEndpoint}/${id}`)
+            .then(res => dispatch(handleSingleEpisode(res.data)))
             .catch(err => dispatch(handleErrors(err.message)));
     }
 }

@@ -13,6 +13,8 @@ import BooksList from './components/books/BooksList';
 import SingleBook from './components/books/SingleBook';
 import SingleVolume from './components/comics/SingleVolume';
 import Issue from './components/comics/Issue';
+import EpisodesList from './components/episodes/EpisodesList';
+import SingleEpisode from './components/episodes/SingleEpisode';
 
 const App = (props) => {
 
@@ -27,6 +29,8 @@ const App = (props) => {
         <Route path="/comics/volumes/:name/:id" component={Issue} />
         <Route path="/comics/volumes/:name" component={SingleVolume} />
         <Route path="/comics" component={ComicsList} />
+        <Route path="/episodes/:id" component={SingleEpisode} />
+        <Route path="/episodes" component={EpisodesList} />
         <Route path="/home" component={Home} />
         <Route path="/seasons/:id" component={SingleSeason} />
         <Route path="/seasons" component={SeasonsList} />
