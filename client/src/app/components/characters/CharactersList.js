@@ -16,7 +16,7 @@ class CharactersList extends Component {
         }
 
         this.handleSearch = this.handleSearch.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.mapCharacters = this.mapCharacters.bind(this);
     }
 
     componentDidMount() {
@@ -24,23 +24,31 @@ class CharactersList extends Component {
     }
 
     handleSearch(e) {
-        this.setState({[e.target.name]: e.target.value});
+        this.setState({ [e.target.name]: e.target.value });
+        let searchedCharacters = this.props.characters.filter(char => char.name.toLowerCase().includes(e.target.value));
+        this.setState({
+            searchedCharacters
+        });
     }
 
-    handleSubmit(e) {
-        e.preventDefault();
-        console.log(this.state.searchValue);
-        
+    mapCharacters(characters) {
+        if(characters.length === 0) {
+            return <Loader />
+        }
+        return characters.map((character, i) => <Character key={i} character={character} />);
     }
 
     render() {
         const { characters, error } = this.props;
+        const { searchedCharacters } = this.state;
         return (
             <div className="wrapper">
-            <SearchBar handleSearch={this.handleSearch} handleSubmit={this.handleSubmit} searchValue={this.state.searchValue} />
+                <SearchBar handleSearch={this.handleSearch} searchValue={this.state.searchValue} />
+                <ul className="characters-list">
                 {
-                   error ? error : !characters ? <Loader /> : characters.map((character, i) => <Character key={i} character={character} />)
+                    error ? error : searchedCharacters ? this.mapCharacters(searchedCharacters) : this.mapCharacters(characters)
                 }
+                </ul>
             </div>
         );
     }
