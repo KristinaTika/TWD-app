@@ -17,7 +17,7 @@ class SeasonsList extends Component {
         }
 
         this.handleSearch = this.handleSearch.bind(this);
-        this.mapComics = this.mapComics.bind(this);
+        this.mapSeasons = this.mapSeasons.bind(this);
     }
 
     componentDidMount() {
@@ -28,7 +28,6 @@ class SeasonsList extends Component {
         e.preventDefault();
         this.setState({ [e.target.name]: e.target.value });
         let searchedSeasons = this.props.seasons.filter(char => {
-            // let id = Number(num.slice(0, 1));
             return char.num.slice(0, 1).toLowerCase().includes(e.target.value.toLowerCase())
         });
         this.setState({
@@ -36,7 +35,7 @@ class SeasonsList extends Component {
         })
     }
 
-    mapComics(seasons) {
+    mapSeasons(seasons) {
         if(seasons.length === 0) {
             return <Loader />
         }
@@ -50,7 +49,7 @@ class SeasonsList extends Component {
             <div className="wrapper">
                 <SearchBar handleSearch={this.handleSearch} searchValue={searchValue}/>
                 <ul>
-                    {error ? error : searchedSeasons ? this.mapComics(searchedSeasons) : this.mapComics(seasons) }
+                    {error ? error : searchedSeasons ? this.mapSeasons(searchedSeasons) : this.mapSeasons(seasons) }
                 </ul>
             </div>
         );
