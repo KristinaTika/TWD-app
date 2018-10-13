@@ -98,7 +98,7 @@ const characters = [
             {
                 id: 5,
                 name: "Morgan Jones",
-                photo: "https://vignette.wikia.nocookie.net/walkingdead/images/e/ec/Morgan-S5.jpg/revision/latest?cb=20141013103451&format=original",
+                photo: "https://thesupernaturalfoxsisters.files.wordpress.com/2015/03/rd-morgan-the-walking-dead-conquer.jpeg",
                 actor: 'Lennia James',
                 gender: 'male',
                 hair: 'black',
