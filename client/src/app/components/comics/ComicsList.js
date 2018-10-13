@@ -33,8 +33,6 @@ class ComicsList extends Component {
         e.preventDefault();
         this.setState({ [e.target.name]: e.target.value });
         let searchedComics = this.props.comics.volumes.filter(char => char.title.toLowerCase().includes(e.target.value.toLowerCase()));
-        console.log(searchedComics);
-        console.log(this.props.comics);
         this.setState({
             searchedComics
         })
