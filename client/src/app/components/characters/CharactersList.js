@@ -24,8 +24,9 @@ class CharactersList extends Component {
     }
 
     handleSearch(e) {
+        e.preventDefault();
         this.setState({ [e.target.name]: e.target.value });
-        let searchedCharacters = this.props.characters.filter(char => char.name.toLowerCase().includes(e.target.value));
+        let searchedCharacters = this.props.characters.filter(char => char.name.toLowerCase().includes(e.target.value.toLowerCase()));
         this.setState({
             searchedCharacters
         });
@@ -40,10 +41,10 @@ class CharactersList extends Component {
 
     render() {
         const { characters, error } = this.props;
-        const { searchedCharacters } = this.state;
+        const { searchedCharacters, searchValue } = this.state;
         return (
             <div className="wrapper">
-                <SearchBar handleSearch={this.handleSearch} searchValue={this.state.searchValue} />
+                <SearchBar handleSearch={this.handleSearch} searchValue={searchValue} />
                 <ul className="characters-list">
                 {
                     error ? error : searchedCharacters ? this.mapCharacters(searchedCharacters) : this.mapCharacters(characters)

@@ -114,12 +114,12 @@ class SingleCharacter extends Component {
         );
     }
 }
-// SingleCharacter.propTypes = {
-//     fetchSingleCharacter: PropTypes.func.isRequired,
-//     handleErrors: PropTypes.func.isRequired,
-//     character: PropTypes.object,
-//     error: PropTypes.string
-// }
+SingleCharacter.propTypes = {
+    fetchSingleCharacter: PropTypes.func.isRequired,
+    handleErrors: PropTypes.func.isRequired,
+    character: PropTypes.object,
+    error: PropTypes.string
+}
 
 const mapStateToProp = (state) => {
     return {
